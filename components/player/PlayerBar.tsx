@@ -1,11 +1,11 @@
 "use client";
 
-import { useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Pause, Play, SkipBack, SkipForward, Sparkles } from "lucide-react";
 import type { Song } from "@/types";
 import { formatTime } from "@/lib/utils";
 import SongCover from "@/components/music/SongCover";
+import HandDrawnProgress from "./HandDrawnProgress";
 
 interface PlayerBarProps {
   song: Song | null;
@@ -36,15 +36,6 @@ export default function PlayerBar({
   onSkip,
   onOpenLossless,
 }: PlayerBarProps) {
-  const barRef = useRef<HTMLDivElement>(null);
-
-  const handleSeekClick = (e: React.MouseEvent<HTMLDivElement>) => {
-    if (!barRef.current || duration <= 0) return;
-    const rect = barRef.current.getBoundingClientRect();
-    const ratio = Math.min(1, Math.max(0, (e.clientX - rect.left) / rect.width));
-    onSeek(ratio * duration);
-  };
-
   return (
     <AnimatePresence>
       {song ? (
@@ -92,24 +83,17 @@ export default function PlayerBar({
             </div>
 
             <div className="hidden flex-1 items-center gap-2 sm:flex">
-              <span className="w-10 text-right text-[11px] tabular-nums text-brown">
+              <span className="w-10 shrink-0 text-right text-[11px] tabular-nums text-brown">
                 {formatTime(currentTime)}
               </span>
-              <div
-                ref={barRef}
-                onClick={handleSeekClick}
-                className="group relative h-1.5 flex-1 cursor-pointer rounded-full bg-paper-dark"
-              >
-                <div
-                  className="absolute inset-y-0 left-0 rounded-full bg-brick"
-                  style={{ width: `${progress * 100}%` }}
-                />
-                <div
-                  className="absolute top-1/2 h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full bg-brick opacity-0 shadow transition-opacity group-hover:opacity-100"
-                  style={{ left: `${progress * 100}%` }}
-                />
-              </div>
-              <span className="w-10 text-[11px] tabular-nums text-brown">{formatTime(duration)}</span>
+              <HandDrawnProgress
+                progress={progress}
+                isPlaying={isPlaying}
+                songId={song.id}
+                onSeek={onSeek}
+                duration={duration}
+              />
+              <span className="w-10 shrink-0 text-[11px] tabular-nums text-brown">{formatTime(duration)}</span>
             </div>
 
             {onOpenLossless ? (
@@ -123,9 +107,16 @@ export default function PlayerBar({
             ) : null}
           </div>
 
-          {/* thin progress bar for mobile (hidden desktop) */}
-          <div className="h-0.5 w-full bg-paper-dark sm:hidden">
-            <div className="h-full bg-brick" style={{ width: `${progress * 100}%` }} />
+          {/* hand-drawn progress for mobile (hidden desktop) */}
+          <div className="px-4 pb-2 sm:hidden">
+            <HandDrawnProgress
+              progress={progress}
+              isPlaying={isPlaying}
+              songId={song.id}
+              onSeek={onSeek}
+              duration={duration}
+              compact
+            />
           </div>
         </motion.div>
       ) : null}

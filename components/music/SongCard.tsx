@@ -46,7 +46,7 @@ export default function SongCard({ song, index, onPlay, isPlaying, onSkip }: Son
         {isPlaying ? <Pause size={16} /> : <Play size={16} className="translate-x-[1px]" />}
       </button>
 
-      <SongCover song={song} size={48} />
+      <SongCover song={song} size={48} index={index} />
 
       <div className="min-w-0 flex-1">
         <p className="truncate text-sm font-semibold text-ink">{song.title}</p>
