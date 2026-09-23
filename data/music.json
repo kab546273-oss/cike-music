@@ -1,0 +1,3968 @@
+[
+  {
+    "id": "s001",
+    "title": "成都",
+    "artist": "赵雷",
+    "album": "成都",
+    "duration": 328,
+    "bpm": 78,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "folk",
+      "acoustic"
+    ],
+    "mood": [
+      "warm",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s002",
+    "title": "南山南",
+    "artist": "马頔",
+    "album": "孤岛",
+    "duration": 297,
+    "bpm": 82,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "folk",
+      "indie"
+    ],
+    "mood": [
+      "melancholy",
+      "lonely"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s003",
+    "title": "理想三旬",
+    "artist": "陈鸿宇",
+    "album": "浓烟下的诗歌电台",
+    "duration": 225,
+    "bpm": 75,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "folk",
+      "acoustic"
+    ],
+    "mood": [
+      "melancholy",
+      "calm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s004",
+    "title": "芳草地",
+    "artist": "陈粒",
+    "album": "如也",
+    "duration": 265,
+    "bpm": 90,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "folk"
+    ],
+    "mood": [
+      "warm",
+      "chill"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s005",
+    "title": "小半",
+    "artist": "陈粒",
+    "album": "小梦大半",
+    "duration": 295,
+    "bpm": 95,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop"
+    ],
+    "mood": [
+      "romantic",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s006",
+    "title": "奇妙能力歌",
+    "artist": "陈粒",
+    "album": "如也",
+    "duration": 275,
+    "bpm": 85,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "folk",
+      "indie-pop"
+    ],
+    "mood": [
+      "chill",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s007",
+    "title": "斑马斑马",
+    "artist": "宋冬野",
+    "album": "安和桥北",
+    "duration": 255,
+    "bpm": 80,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "folk",
+      "acoustic"
+    ],
+    "mood": [
+      "lonely",
+      "melancholy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s008",
+    "title": "董小姐",
+    "artist": "宋冬野",
+    "album": "安和桥北",
+    "duration": 230,
+    "bpm": 95,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "folk"
+    ],
+    "mood": [
+      "lonely",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s009",
+    "title": "安和桥",
+    "artist": "宋冬野",
+    "album": "安和桥北",
+    "duration": 280,
+    "bpm": 72,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "folk",
+      "acoustic"
+    ],
+    "mood": [
+      "melancholy",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s010",
+    "title": "往后余生",
+    "artist": "马良",
+    "album": "往后余生",
+    "duration": 260,
+    "bpm": 70,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "folk",
+      "pop-vocal"
+    ],
+    "mood": [
+      "warm",
+      "romantic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s011",
+    "title": "可能否",
+    "artist": "木小雅",
+    "album": "可能否",
+    "duration": 235,
+    "bpm": 88,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "folk",
+      "indie-pop"
+    ],
+    "mood": [
+      "chill",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s012",
+    "title": "春风十里",
+    "artist": "鹿先森乐队",
+    "album": "所有的酒，都不如你",
+    "duration": 285,
+    "bpm": 95,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "folk",
+      "indie"
+    ],
+    "mood": [
+      "warm",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s013",
+    "title": "你曾是少年",
+    "artist": "S.H.E",
+    "album": "女仙",
+    "duration": 280,
+    "bpm": 100,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "pop-vocal"
+    ],
+    "mood": [
+      "nostalgic",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s014",
+    "title": "小幸运",
+    "artist": "田馥甄",
+    "album": "小幸运",
+    "duration": 294,
+    "bpm": 75,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "indie-pop"
+    ],
+    "mood": [
+      "romantic",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s015",
+    "title": "寂寞寂寞就好",
+    "artist": "田馥甄",
+    "album": "to 爱",
+    "duration": 270,
+    "bpm": 80,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal"
+    ],
+    "mood": [
+      "sad",
+      "melancholy"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s016",
+    "title": "诗人漫步",
+    "artist": "魏如萱",
+    "album": "还是会",
+    "duration": 260,
+    "bpm": 90,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "pop-vocal"
+    ],
+    "mood": [
+      "chill",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s017",
+    "title": "你啊你啊",
+    "artist": "魏如萱",
+    "album": "末路狂花",
+    "duration": 265,
+    "bpm": 95,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop"
+    ],
+    "mood": [
+      "romantic",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s018",
+    "title": "香格里拉",
+    "artist": "黄玠",
+    "album": "绿色的日子",
+    "duration": 250,
+    "bpm": 82,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "folk",
+      "acoustic"
+    ],
+    "mood": [
+      "chill",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s019",
+    "title": "929",
+    "artist": "929乐团",
+    "album": "929同名专辑",
+    "duration": 240,
+    "bpm": 78,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "folk",
+      "indie"
+    ],
+    "mood": [
+      "chill",
+      "calm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s020",
+    "title": "我们",
+    "artist": "陈奕迅",
+    "album": "我们",
+    "duration": 265,
+    "bpm": 72,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal"
+    ],
+    "mood": [
+      "melancholy",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s021",
+    "title": "好久不见",
+    "artist": "陈奕迅",
+    "album": "认了吧",
+    "duration": 245,
+    "bpm": 70,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal"
+    ],
+    "mood": [
+      "nostalgic",
+      "lonely"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s022",
+    "title": "稳稳的幸福",
+    "artist": "陈奕迅",
+    "album": "稳稳的幸福",
+    "duration": 260,
+    "bpm": 80,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal"
+    ],
+    "mood": [
+      "warm",
+      "calm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s023",
+    "title": "陪你度过漫长岁月",
+    "artist": "陈奕迅",
+    "album": "陪你度过漫长岁月",
+    "duration": 280,
+    "bpm": 85,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal"
+    ],
+    "mood": [
+      "warm",
+      "romantic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s024",
+    "title": "岁月如歌",
+    "artist": "陈奕迅",
+    "album": "Live for Today",
+    "duration": 225,
+    "bpm": 100,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal"
+    ],
+    "mood": [
+      "nostalgic",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s025",
+    "title": "晚安",
+    "artist": "颜人中",
+    "album": "晚安",
+    "duration": 240,
+    "bpm": 75,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "indie-pop"
+    ],
+    "mood": [
+      "calm",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s026",
+    "title": "茫",
+    "artist": "李润祺",
+    "album": "茫",
+    "duration": 255,
+    "bpm": 80,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "pop-vocal"
+    ],
+    "mood": [
+      "lonely",
+      "chill"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s027",
+    "title": "大眠",
+    "artist": "王心凌",
+    "album": "大眠",
+    "duration": 260,
+    "bpm": 78,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal"
+    ],
+    "mood": [
+      "melancholy",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s028",
+    "title": "起风了",
+    "artist": "买辣椒也用券",
+    "album": "起风了",
+    "duration": 325,
+    "bpm": 90,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "pop-vocal"
+    ],
+    "mood": [
+      "nostalgic",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s029",
+    "title": "起风了(买辣椒版)",
+    "artist": "周深",
+    "album": "起风了",
+    "duration": 320,
+    "bpm": 88,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal"
+    ],
+    "mood": [
+      "nostalgic",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s030",
+    "title": "大鱼",
+    "artist": "周深",
+    "album": "大鱼海棠",
+    "duration": 285,
+    "bpm": 72,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "new-age"
+    ],
+    "mood": [
+      "healing",
+      "calm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s031",
+    "title": "和光同尘",
+    "artist": "周深",
+    "album": "和光同尘",
+    "duration": 240,
+    "bpm": 80,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal"
+    ],
+    "mood": [
+      "warm",
+      "calm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s032",
+    "title": "雪落下的声音",
+    "artist": "周深",
+    "album": "雪落下的声音",
+    "duration": 255,
+    "bpm": 70,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "new-age"
+    ],
+    "mood": [
+      "melancholy",
+      "calm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s033",
+    "title": "无问",
+    "artist": "毛不易",
+    "album": "无问西东",
+    "duration": 260,
+    "bpm": 75,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "folk",
+      "pop-vocal"
+    ],
+    "mood": [
+      "nostalgic",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s034",
+    "title": "像我这样的人",
+    "artist": "毛不易",
+    "album": "平凡的一天",
+    "duration": 265,
+    "bpm": 85,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "folk",
+      "pop-vocal"
+    ],
+    "mood": [
+      "lonely",
+      "chill"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s035",
+    "title": "消愁",
+    "artist": "毛不易",
+    "album": "巨星不易",
+    "duration": 290,
+    "bpm": 88,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "folk",
+      "pop-vocal"
+    ],
+    "mood": [
+      "melancholy",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s036",
+    "title": "盛夏",
+    "artist": "毛不易",
+    "album": "平凡的一天",
+    "duration": 280,
+    "bpm": 90,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "folk",
+      "indie-pop"
+    ],
+    "mood": [
+      "nostalgic",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s037",
+    "title": "平凡的一天",
+    "artist": "毛不易",
+    "album": "平凡的一天",
+    "duration": 245,
+    "bpm": 85,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "folk",
+      "acoustic"
+    ],
+    "mood": [
+      "chill",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s038",
+    "title": "借",
+    "artist": "毛不易",
+    "album": "借",
+    "duration": 240,
+    "bpm": 80,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "folk"
+    ],
+    "mood": [
+      "lonely",
+      "calm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s039",
+    "title": "借我",
+    "artist": "谢春花",
+    "album": "算云烟",
+    "duration": 235,
+    "bpm": 82,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "folk",
+      "acoustic"
+    ],
+    "mood": [
+      "chill",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s040",
+    "title": "荏苒冬春去",
+    "artist": "谢春花",
+    "album": "荏苒冬春去",
+    "duration": 245,
+    "bpm": 78,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "folk"
+    ],
+    "mood": [
+      "calm",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s041",
+    "title": "没有理想的人不伤心",
+    "artist": "新裤子",
+    "album": "生命因你而火热",
+    "duration": 265,
+    "bpm": 130,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rock",
+      "indie"
+    ],
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s042",
+    "title": "生活因你而火热",
+    "artist": "新裤子",
+    "album": "生命因你而火热",
+    "duration": 300,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rock"
+    ],
+    "mood": [
+      "warm",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s043",
+    "title": "花火",
+    "artist": "新裤子",
+    "album": "花火",
+    "duration": 290,
+    "bpm": 135,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rock"
+    ],
+    "mood": [
+      "energetic",
+      "free"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s044",
+    "title": "刺猬",
+    "artist": "刺猬乐队",
+    "album": "生之响往",
+    "duration": 255,
+    "bpm": 140,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rock",
+      "indie"
+    ],
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s045",
+    "title": "火车驶向云外，梦安魂于九霄",
+    "artist": "刺猬",
+    "album": "生之响往",
+    "duration": 360,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rock",
+      "indie"
+    ],
+    "mood": [
+      "melancholy",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s046",
+    "title": "再见杰克",
+    "artist": "痛仰乐队",
+    "album": "不要停止我的音乐",
+    "duration": 300,
+    "bpm": 110,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rock"
+    ],
+    "mood": [
+      "free",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s047",
+    "title": "公路之歌",
+    "artist": "痛仰乐队",
+    "album": "不要停止我的音乐",
+    "duration": 240,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rock"
+    ],
+    "mood": [
+      "free",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s048",
+    "title": "西湖",
+    "artist": "痛仰乐队",
+    "album": "不要停止我的音乐",
+    "duration": 300,
+    "bpm": 90,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rock",
+      "folk"
+    ],
+    "mood": [
+      "warm",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s049",
+    "title": "大石碎胸口",
+    "artist": "万能青年旅店",
+    "album": "万能青年旅店",
+    "duration": 400,
+    "bpm": 110,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rock",
+      "indie"
+    ],
+    "mood": [
+      "energetic",
+      "melancholy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s050",
+    "title": "杀死那个石家庄人",
+    "artist": "万能青年旅店",
+    "album": "万能青年旅店",
+    "duration": 360,
+    "bpm": 100,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rock",
+      "indie"
+    ],
+    "mood": [
+      "melancholy",
+      "energetic",
+      "free"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s051",
+    "title": "山海",
+    "artist": "草东没有派对",
+    "album": "丑奴儿",
+    "duration": 275,
+    "bpm": 115,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie",
+      "rock"
+    ],
+    "mood": [
+      "melancholy",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s052",
+    "title": "大风吹",
+    "artist": "草东没有派对",
+    "album": "丑奴儿",
+    "duration": 240,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie",
+      "rock"
+    ],
+    "mood": [
+      "energetic",
+      "melancholy"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s053",
+    "title": "勇敢的人",
+    "artist": "草东没有派对",
+    "album": "丑奴儿",
+    "duration": 260,
+    "bpm": 110,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie",
+      "rock"
+    ],
+    "mood": [
+      "energetic",
+      "free"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s054",
+    "title": "午夜跳舞的狐",
+    "artist": "deca joins",
+    "album": "浴室",
+    "duration": 245,
+    "bpm": 105,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie",
+      "indie-pop"
+    ],
+    "mood": [
+      "chill",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s055",
+    "title": "海浪",
+    "artist": "deca joins",
+    "album": "海浪",
+    "duration": 280,
+    "bpm": 100,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie",
+      "indie-pop"
+    ],
+    "mood": [
+      "chill",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s056",
+    "title": "天地自由",
+    "artist": "Anti-General",
+    "album": "天地自由",
+    "duration": 240,
+    "bpm": 128,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "edm",
+      "cinematic"
+    ],
+    "mood": [
+      "energetic",
+      "free"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s057",
+    "title": "Panta.Q 熊猫人",
+    "artist": "Panta.Q",
+    "album": "Panda Q",
+    "duration": 220,
+    "bpm": 126,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "edm",
+      "dance"
+    ],
+    "mood": [
+      "energetic",
+      "happy"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s058",
+    "title": "重庆魂",
+    "artist": "GAI",
+    "album": "华夏",
+    "duration": 200,
+    "bpm": 140,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop",
+      "rap"
+    ],
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s059",
+    "title": "天干物燥",
+    "artist": "GAI",
+    "album": "天干物燥",
+    "duration": 180,
+    "bpm": 135,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop"
+    ],
+    "mood": [
+      "energetic",
+      "free"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s060",
+    "title": "星球坠落",
+    "artist": "艾热/李佳隆",
+    "album": "星球坠落",
+    "duration": 240,
+    "bpm": 90,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop",
+      "rnb"
+    ],
+    "mood": [
+      "romantic",
+      "chill"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s061",
+    "title": "经济舱",
+    "artist": "Kafe.Hu",
+    "album": "经济舱",
+    "duration": 260,
+    "bpm": 95,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop",
+      "jazz"
+    ],
+    "mood": [
+      "chill",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s062",
+    "title": "LONELY DANCE",
+    "artist": "傻子与白痴",
+    "album": "夜长梦少",
+    "duration": 280,
+    "bpm": 110,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie",
+      "indie-pop"
+    ],
+    "mood": [
+      "chill",
+      "melancholy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s063",
+    "title": "Lemon",
+    "artist": "米津玄師",
+    "album": "Lemon",
+    "duration": 256,
+    "bpm": 85,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "pop-vocal"
+    ],
+    "mood": [
+      "melancholy",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s064",
+    "title": "Loser",
+    "artist": "米津玄師",
+    "album": "Loser",
+    "duration": 243,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "rock"
+    ],
+    "mood": [
+      "energetic",
+      "free"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s065",
+    "title": "感電",
+    "artist": "米津玄師",
+    "album": "Pale Blue",
+    "duration": 208,
+    "bpm": 125,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "edm"
+    ],
+    "mood": [
+      "energetic",
+      "intense"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s066",
+    "title": "Pale Blue",
+    "artist": "米津玄師",
+    "album": "Pale Blue",
+    "duration": 260,
+    "bpm": 95,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "pop-vocal"
+    ],
+    "mood": [
+      "romantic",
+      "melancholy"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s067",
+    "title": "Flamingo",
+    "artist": "米津玄師",
+    "album": "Flamingo",
+    "duration": 200,
+    "bpm": 110,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "funk"
+    ],
+    "mood": [
+      "energetic",
+      "chill"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s068",
+    "title": "打上花火",
+    "artist": "DAOKO/米津玄師",
+    "album": "打上花火",
+    "duration": 248,
+    "bpm": 92,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "pop-vocal"
+    ],
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s069",
+    "title": "妖精的尾巴",
+    "artist": "GOING UNDER GROUND",
+    "album": "妖精的尾巴",
+    "duration": 260,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie",
+      "rock"
+    ],
+    "mood": [
+      "energetic",
+      "free"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s070",
+    "title": "夜に駆ける",
+    "artist": "YOASOBI",
+    "album": "夜に駆ける",
+    "duration": 240,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "pop-vocal"
+    ],
+    "mood": [
+      "energetic",
+      "romantic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s071",
+    "title": "アイドル",
+    "artist": "YOASOBI",
+    "album": "アイドル",
+    "duration": 213,
+    "bpm": 150,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "edm"
+    ],
+    "mood": [
+      "energetic",
+      "happy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s072",
+    "title": "群青",
+    "artist": "YOASOBI",
+    "album": "群青",
+    "duration": 260,
+    "bpm": 130,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "pop-vocal"
+    ],
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s073",
+    "title": "ただ君に晴れ",
+    "artist": "ヨルシカ",
+    "album": "ただ君に晴れ",
+    "duration": 245,
+    "bpm": 115,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-rock",
+      "indie-pop"
+    ],
+    "mood": [
+      "energetic",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s074",
+    "title": "春泥棒",
+    "artist": "ヨルシカ",
+    "album": "春泥棒",
+    "duration": 270,
+    "bpm": 105,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-rock"
+    ],
+    "mood": [
+      "nostalgic",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s075",
+    "title": "双葉",
+    "artist": "ヨルシカ",
+    "album": "双葉",
+    "duration": 240,
+    "bpm": 110,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-rock"
+    ],
+    "mood": [
+      "energetic",
+      "melancholy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s076",
+    "title": "丸ノ内サディスティック",
+    "artist": "椎名林檎",
+    "album": "無罪モラトリアム",
+    "duration": 290,
+    "bpm": 130,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "jazz"
+    ],
+    "mood": [
+      "energetic",
+      "free"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s077",
+    "title": "命运",
+    "artist": "椎名林檎",
+    "album": "勝訴ストリップ",
+    "duration": 270,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "rock"
+    ],
+    "mood": [
+      "energetic",
+      "intense"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s078",
+    "title": "真夜中の嘘",
+    "artist": "椎名林檎",
+    "album": "真夜中の嘘",
+    "duration": 280,
+    "bpm": 90,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "jazz",
+      "pop-vocal"
+    ],
+    "mood": [
+      "chill",
+      "melancholy"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s079",
+    "title": "Pretender",
+    "artist": "Official髭男dism",
+    "album": "Pretender",
+    "duration": 256,
+    "bpm": 95,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "pop-vocal"
+    ],
+    "mood": [
+      "romantic",
+      "melancholy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s080",
+    "title": "Subtitle",
+    "artist": "Official髭男dism",
+    "album": "Subtitle",
+    "duration": 300,
+    "bpm": 95,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop"
+    ],
+    "mood": [
+      "melancholy",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s081",
+    "title": "ミックスナッツ",
+    "artist": "Official髭男dism",
+    "album": "ミックスナッツ",
+    "duration": 240,
+    "bpm": 128,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "funk"
+    ],
+    "mood": [
+      "happy",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s082",
+    "title": "白い雲のように",
+    "artist": "SPITZ",
+    "album": "白い雲のように",
+    "duration": 280,
+    "bpm": 100,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "j-pop",
+      "indie-pop"
+    ],
+    "mood": [
+      "warm",
+      "chill"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s083",
+    "title": "ロビンソン",
+    "artist": "SPITZ",
+    "album": "ロビンソン",
+    "duration": 245,
+    "bpm": 105,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "j-pop",
+      "indie-pop"
+    ],
+    "mood": [
+      "nostalgic",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s084",
+    "title": "空も飛べるはず",
+    "artist": "SPITZ",
+    "album": "空も飛べるはず",
+    "duration": 270,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "j-pop",
+      "rock"
+    ],
+    "mood": [
+      "energetic",
+      "free"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s085",
+    "title": "糸",
+    "artist": "中島みゆき",
+    "album": "糸",
+    "duration": 300,
+    "bpm": 75,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "folk",
+      "pop-vocal"
+    ],
+    "mood": [
+      "warm",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s086",
+    "title": "麦の唄",
+    "artist": "中島みゆき",
+    "album": "麦の唄",
+    "duration": 280,
+    "bpm": 80,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "folk"
+    ],
+    "mood": [
+      "warm",
+      "calm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s087",
+    "title": "First Love",
+    "artist": "宇多田ヒカル",
+    "album": "First Love",
+    "duration": 260,
+    "bpm": 75,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "rnb"
+    ],
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s088",
+    "title": "Automatic",
+    "artist": "宇多田ヒカル",
+    "album": "First Love",
+    "duration": 240,
+    "bpm": 110,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rnb",
+      "pop-vocal"
+    ],
+    "mood": [
+      "energetic",
+      "romantic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s089",
+    "title": "Prisoner Of Love",
+    "artist": "宇多田ヒカル",
+    "album": "HEART STATION",
+    "duration": 245,
+    "bpm": 90,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rnb",
+      "pop-vocal"
+    ],
+    "mood": [
+      "melancholy",
+      "romantic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s090",
+    "title": "Harujion",
+    "artist": "Base Ball Bear",
+    "album": "Harujion",
+    "duration": 240,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "j-pop",
+      "rock"
+    ],
+    "mood": [
+      "energetic",
+      "happy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s091",
+    "title": "恋",
+    "artist": "星野源",
+    "album": "恋",
+    "duration": 260,
+    "bpm": 110,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "funk",
+      "pop-vocal"
+    ],
+    "mood": [
+      "happy",
+      "romantic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s092",
+    "title": "Family Song",
+    "artist": "星野源",
+    "album": "Family Song",
+    "duration": 265,
+    "bpm": 100,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "funk"
+    ],
+    "mood": [
+      "warm",
+      "happy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s093",
+    "title": "Sun",
+    "artist": "星野源",
+    "album": "Sun",
+    "duration": 240,
+    "bpm": 115,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "funk",
+      "pop-vocal"
+    ],
+    "mood": [
+      "happy",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s094",
+    "title": "Mixed Nuts",
+    "artist": "Official髭男dism",
+    "album": "Mixed Nuts",
+    "duration": 240,
+    "bpm": 128,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "funk",
+      "pop-vocal"
+    ],
+    "mood": [
+      "happy",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s095",
+    "title": "だから僕は音楽を辞めた",
+    "artist": "ヨルシカ",
+    "album": "だから僕は音楽を辞めた",
+    "duration": 270,
+    "bpm": 110,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-rock"
+    ],
+    "mood": [
+      "melancholy",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s096",
+    "title": "春天以外",
+    "artist": "wacci",
+    "album": "春以外",
+    "duration": 260,
+    "bpm": 95,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "folk",
+      "indie-pop"
+    ],
+    "mood": [
+      "warm",
+      "calm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s097",
+    "title": "KICK BACK",
+    "artist": "米津玄師",
+    "album": "KICK BACK",
+    "duration": 220,
+    "bpm": 140,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rock",
+      "pop-vocal"
+    ],
+    "mood": [
+      "energetic",
+      "free"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s098",
+    "title": "MoH",
+    "artist": "Vaundy",
+    "album": "MoH",
+    "duration": 200,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "funk"
+    ],
+    "mood": [
+      "energetic",
+      "happy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s099",
+    "title": "Tokyo Flash",
+    "artist": "Vaundy",
+    "album": "Tokyo Flash",
+    "duration": 240,
+    "bpm": 115,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop"
+    ],
+    "mood": [
+      "energetic",
+      "chill"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s100",
+    "title": "踊",
+    "artist": "Ado",
+    "album": "踊",
+    "duration": 220,
+    "bpm": 150,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "edm"
+    ],
+    "mood": [
+      "energetic",
+      "intense"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s101",
+    "title": "新時代",
+    "artist": "Ado",
+    "album": "新時代",
+    "duration": 250,
+    "bpm": 130,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "rock"
+    ],
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s102",
+    "title": "Dynamite",
+    "artist": "BTS",
+    "album": "Dynamite",
+    "duration": 210,
+    "bpm": 115,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "disco"
+    ],
+    "mood": [
+      "happy",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s103",
+    "title": "Spring Day",
+    "artist": "BTS",
+    "album": "You Never Walk Alone",
+    "duration": 270,
+    "bpm": 90,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "hiphop"
+    ],
+    "mood": [
+      "melancholy",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s104",
+    "title": "Boy With Luv",
+    "artist": "BTS/Halsey",
+    "album": "Map of the Soul: Persona",
+    "duration": 230,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal"
+    ],
+    "mood": [
+      "happy",
+      "romantic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s105",
+    "title": "Butter",
+    "artist": "BTS",
+    "album": "Butter",
+    "duration": 244,
+    "bpm": 110,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "disco"
+    ],
+    "mood": [
+      "happy",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s106",
+    "title": "Gangnam Style",
+    "artist": "PSY",
+    "album": "Gangnam Style",
+    "duration": 220,
+    "bpm": 132,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "dance",
+      "edm"
+    ],
+    "mood": [
+      "energetic",
+      "happy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s107",
+    "title": "TT",
+    "artist": "TWICE",
+    "album": "TT",
+    "duration": 200,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "dance"
+    ],
+    "mood": [
+      "happy",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s108",
+    "title": "Cheer Up",
+    "artist": "TWICE",
+    "album": "Cheer Up",
+    "duration": 210,
+    "bpm": 118,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "dance"
+    ],
+    "mood": [
+      "happy",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s109",
+    "title": "Fancy",
+    "artist": "TWICE",
+    "album": "Fancy",
+    "duration": 200,
+    "bpm": 125,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "edm"
+    ],
+    "mood": [
+      "energetic",
+      "happy"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s110",
+    "title": "How You Like That",
+    "artist": "BLACKPINK",
+    "album": "How You Like That",
+    "duration": 210,
+    "bpm": 130,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop",
+      "edm"
+    ],
+    "mood": [
+      "energetic",
+      "intense"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s111",
+    "title": "DDU-DU DDU-DU",
+    "artist": "BLACKPINK",
+    "album": "Square Up",
+    "duration": 210,
+    "bpm": 140,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop",
+      "edm"
+    ],
+    "mood": [
+      "energetic",
+      "intense"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s112",
+    "title": "Pink Venom",
+    "artist": "BLACKPINK",
+    "album": "Pink Venom",
+    "duration": 210,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop",
+      "edm"
+    ],
+    "mood": [
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s113",
+    "title": "Shut Down",
+    "artist": "BLACKPINK",
+    "album": "Born Pink",
+    "duration": 200,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop",
+      "edm"
+    ],
+    "mood": [
+      "energetic",
+      "intense"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s114",
+    "title": "Love Scenario",
+    "artist": "iKON",
+    "album": "Return",
+    "duration": 220,
+    "bpm": 90,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop",
+      "rnb"
+    ],
+    "mood": [
+      "warm",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s115",
+    "title": "Way Back Home",
+    "artist": "SHAUN",
+    "album": "Way Back Home",
+    "duration": 220,
+    "bpm": 125,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "edm",
+      "pop-vocal"
+    ],
+    "mood": [
+      "energetic",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s116",
+    "title": "Any Song",
+    "artist": "Zico",
+    "album": "Any Song",
+    "duration": 210,
+    "bpm": 95,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop",
+      "pop-vocal"
+    ],
+    "mood": [
+      "chill",
+      "happy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s117",
+    "title": "Celebrity",
+    "artist": "IU",
+    "album": "Celebrity",
+    "duration": 230,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "dance"
+    ],
+    "mood": [
+      "happy",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s118",
+    "title": "Good Day",
+    "artist": "IU",
+    "album": "Good Day",
+    "duration": 210,
+    "bpm": 128,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal"
+    ],
+    "mood": [
+      "happy",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s119",
+    "title": "Palette",
+    "artist": "IU",
+    "album": "Palette",
+    "duration": 220,
+    "bpm": 100,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "rnb"
+    ],
+    "mood": [
+      "chill",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s120",
+    "title": "Square",
+    "artist": "白艺潾",
+    "album": "Square",
+    "duration": 240,
+    "bpm": 85,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rnb",
+      "jazz"
+    ],
+    "mood": [
+      "chill",
+      "romantic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s121",
+    "title": "Love Love Love",
+    "artist": "DamiIm",
+    "album": "Love Love Love",
+    "duration": 240,
+    "bpm": 90,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rnb",
+      "pop-vocal"
+    ],
+    "mood": [
+      "romantic",
+      "chill"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s122",
+    "title": "Rooftop",
+    "artist": "N.Flying",
+    "album": "Rooftop",
+    "duration": 220,
+    "bpm": 100,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-rock",
+      "pop-vocal"
+    ],
+    "mood": [
+      "energetic",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s123",
+    "title": "For Lovers",
+    "artist": "10cm",
+    "album": "For Lovers",
+    "duration": 230,
+    "bpm": 85,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "folk"
+    ],
+    "mood": [
+      "romantic",
+      "chill"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s124",
+    "title": "Should We Love",
+    "artist": "10cm",
+    "album": "Should We Love",
+    "duration": 240,
+    "bpm": 90,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "folk"
+    ],
+    "mood": [
+      "romantic",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s125",
+    "title": "Travel",
+    "artist": "白艺潾",
+    "album": "Travel",
+    "duration": 230,
+    "bpm": 95,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "rnb",
+      "pop-vocal"
+    ],
+    "mood": [
+      "chill",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s126",
+    "title": "When Night Falls",
+    "artist": "Gray",
+    "album": "When Night Falls",
+    "duration": 220,
+    "bpm": 90,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "rnb",
+      "hiphop"
+    ],
+    "mood": [
+      "chill",
+      "romantic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s127",
+    "title": "City Star",
+    "artist": "Heize",
+    "album": "City Star",
+    "duration": 230,
+    "bpm": 95,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop",
+      "rnb"
+    ],
+    "mood": [
+      "chill",
+      "romantic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s128",
+    "title": "Don't Know You",
+    "artist": "Heize",
+    "album": "Don't Know You",
+    "duration": 220,
+    "bpm": 100,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop",
+      "rnb"
+    ],
+    "mood": [
+      "chill",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s129",
+    "title": "HeeJae",
+    "artist": "Crush",
+    "album": "HeeJae",
+    "duration": 240,
+    "bpm": 90,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "rnb",
+      "neo-soul"
+    ],
+    "mood": [
+      "chill",
+      "romantic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s130",
+    "title": "Beautiful",
+    "artist": "Crush",
+    "album": "Beautiful",
+    "duration": 250,
+    "bpm": 85,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "rnb",
+      "pop-vocal"
+    ],
+    "mood": [
+      "romantic",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s131",
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "album": "After Hours",
+    "duration": 200,
+    "bpm": 171,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "synth-pop",
+      "pop-vocal"
+    ],
+    "mood": [
+      "energetic",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s132",
+    "title": "Save Your Tears",
+    "artist": "The Weeknd",
+    "album": "After Hours",
+    "duration": 215,
+    "bpm": 118,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "synth-pop",
+      "pop-vocal"
+    ],
+    "mood": [
+      "melancholy",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s133",
+    "title": "Cruel Summer",
+    "artist": "Taylor Swift",
+    "album": "Lover",
+    "duration": 210,
+    "bpm": 118,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "synth-pop"
+    ],
+    "mood": [
+      "energetic",
+      "romantic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s134",
+    "title": "Cardigan",
+    "artist": "Taylor Swift",
+    "album": "Folklore",
+    "duration": 239,
+    "bpm": 77,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "indie-folk",
+      "pop-vocal"
+    ],
+    "mood": [
+      "melancholy",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s135",
+    "title": "Anti-Hero",
+    "artist": "Taylor Swift",
+    "album": "Midnights",
+    "duration": 201,
+    "bpm": 119,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal"
+    ],
+    "mood": [
+      "energetic",
+      "melancholy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s136",
+    "title": "All Too Well",
+    "artist": "Taylor Swift",
+    "album": "Red",
+    "duration": 329,
+    "bpm": 94,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "folk"
+    ],
+    "mood": [
+      "nostalgic",
+      "melancholy"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s137",
+    "title": "As It Was",
+    "artist": "Harry Styles",
+    "album": "As It Was",
+    "duration": 167,
+    "bpm": 174,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "synth-pop",
+      "indie-pop"
+    ],
+    "mood": [
+      "energetic",
+      "melancholy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s138",
+    "title": "Watermelon Sugar",
+    "artist": "Harry Styles",
+    "album": "Fine Line",
+    "duration": 174,
+    "bpm": 113,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "funk"
+    ],
+    "mood": [
+      "happy",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s139",
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "album": "Future Nostalgia",
+    "duration": 203,
+    "bpm": 116,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "disco",
+      "pop-vocal"
+    ],
+    "mood": [
+      "happy",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s140",
+    "title": "Don't Start Now",
+    "artist": "Dua Lipa",
+    "album": "Future Nostalgia",
+    "duration": 183,
+    "bpm": 124,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "disco",
+      "pop-vocal"
+    ],
+    "mood": [
+      "energetic",
+      "happy"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s141",
+    "title": "Stay",
+    "artist": "The Kid LAROI/Justin Bieber",
+    "album": "Stay",
+    "duration": 142,
+    "bpm": 170,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "edm"
+    ],
+    "mood": [
+      "energetic",
+      "intense"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s142",
+    "title": "Bad Guy",
+    "artist": "Billie Eilish",
+    "album": "When We All Fall Asleep",
+    "duration": 194,
+    "bpm": 135,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "electronic"
+    ],
+    "mood": [
+      "energetic",
+      "mischievous"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s143",
+    "title": "Happier Than Ever",
+    "artist": "Billie Eilish",
+    "album": "Happier Than Ever",
+    "duration": 298,
+    "bpm": 100,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "rock"
+    ],
+    "mood": [
+      "melancholy",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s144",
+    "title": "Sunflower",
+    "artist": "Post Malone/Swae Lee",
+    "album": "Sunflower",
+    "duration": 158,
+    "bpm": 90,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop",
+      "rnb"
+    ],
+    "mood": [
+      "chill",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s145",
+    "title": "Circles",
+    "artist": "Post Malone",
+    "album": "Hollywood's Bleeding",
+    "duration": 215,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop",
+      "pop-vocal"
+    ],
+    "mood": [
+      "chill",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s146",
+    "title": "Rockstar",
+    "artist": "Post Malone",
+    "album": "Beerbongs & Bentleys",
+    "duration": 220,
+    "bpm": 160,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop"
+    ],
+    "mood": [
+      "energetic",
+      "dark"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s147",
+    "title": "SICKO MODE",
+    "artist": "Travis Scott",
+    "album": "Astroworld",
+    "duration": 548,
+    "bpm": 155,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop",
+      "trap"
+    ],
+    "mood": [
+      "energetic",
+      "dark"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s148",
+    "title": "HUMBLE.",
+    "artist": "Kendrick Lamar",
+    "album": "DAMN.",
+    "duration": 177,
+    "bpm": 150,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop"
+    ],
+    "mood": [
+      "energetic",
+      "intense"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s149",
+    "title": "Alright",
+    "artist": "Kendrick Lamar",
+    "album": "To Pimp a Butterfly",
+    "duration": 290,
+    "bpm": 100,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop",
+      "jazz"
+    ],
+    "mood": [
+      "energetic",
+      "hopeful"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s150",
+    "title": "DNA.",
+    "artist": "Kendrick Lamar",
+    "album": "DAMN.",
+    "duration": 185,
+    "bpm": 140,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop"
+    ],
+    "mood": [
+      "energetic",
+      "intense"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s151",
+    "title": "Lose Yourself",
+    "artist": "Eminem",
+    "album": "8 Mile",
+    "duration": 326,
+    "bpm": 86,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop",
+      "rap"
+    ],
+    "mood": [
+      "motivational",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s152",
+    "title": "Stan",
+    "artist": "Eminem",
+    "album": "The Marshall Mathers LP",
+    "duration": 402,
+    "bpm": 75,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop"
+    ],
+    "mood": [
+      "melancholy",
+      "dark"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s153",
+    "title": "Gold Digger",
+    "artist": "Kanye West",
+    "album": "Late Registration",
+    "duration": 200,
+    "bpm": 90,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop",
+      "soul"
+    ],
+    "mood": [
+      "energetic",
+      "fun"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s154",
+    "title": "Stronger",
+    "artist": "Kanye West",
+    "album": "Graduation",
+    "duration": 311,
+    "bpm": 104,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop",
+      "electronic"
+    ],
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s155",
+    "title": "Flashing Lights",
+    "artist": "Kanye West",
+    "album": "Graduation",
+    "duration": 375,
+    "bpm": 90,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "hiphop",
+      "electronic"
+    ],
+    "mood": [
+      "chill",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s156",
+    "title": "Redbone",
+    "artist": "Childish Gambino",
+    "album": "Awaken, My Love!",
+    "duration": 327,
+    "bpm": 160,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "funk",
+      "soul"
+    ],
+    "mood": [
+      "chill",
+      "groovy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s157",
+    "title": "That's What I Like",
+    "artist": "Bruno Mars",
+    "album": "24K Magic",
+    "duration": 206,
+    "bpm": 134,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "funk",
+      "rnb"
+    ],
+    "mood": [
+      "energetic",
+      "fun"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s158",
+    "title": "Uptown Funk",
+    "artist": "Mark Ronson/Bruno Mars",
+    "album": "Uptown Special",
+    "duration": 270,
+    "bpm": 115,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "funk",
+      "disco"
+    ],
+    "mood": [
+      "energetic",
+      "fun"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s159",
+    "title": "24K Magic",
+    "artist": "Bruno Mars",
+    "album": "24K Magic",
+    "duration": 225,
+    "bpm": 107,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "funk",
+      "disco"
+    ],
+    "mood": [
+      "energetic",
+      "fun"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s160",
+    "title": "Feel It Still",
+    "artist": "Portugal. The Man",
+    "album": "Woodstock",
+    "duration": 153,
+    "bpm": 125,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "funk",
+      "pop-vocal"
+    ],
+    "mood": [
+      "chill",
+      "groovy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s161",
+    "title": "Sunset Lover",
+    "artist": "Petit Biscuit",
+    "album": "Sunset Lover",
+    "duration": 230,
+    "bpm": 128,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "electronic",
+      "chill"
+    ],
+    "mood": [
+      "chill",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s162",
+    "title": "Midnight City",
+    "artist": "M83",
+    "album": "Hurry Up, We're Dreaming",
+    "duration": 244,
+    "bpm": 105,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "electronic",
+      "synth-pop"
+    ],
+    "mood": [
+      "energetic",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s163",
+    "title": "Outro",
+    "artist": "M83",
+    "album": "Hurry Up, We're Dreaming",
+    "duration": 341,
+    "bpm": 120,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "electronic",
+      "cinematic"
+    ],
+    "mood": [
+      "energetic",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s164",
+    "title": "Electric Feel",
+    "artist": "MGMT",
+    "album": "Oracular Spectacular",
+    "duration": 239,
+    "bpm": 105,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "electronic"
+    ],
+    "mood": [
+      "chill",
+      "groovy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s165",
+    "title": "Time to Pretend",
+    "artist": "MGMT",
+    "album": "Oracular Spectacular",
+    "duration": 266,
+    "bpm": 110,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "electronic"
+    ],
+    "mood": [
+      "energetic",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s166",
+    "title": "Sleepy Tigers",
+    "artist": "Her's",
+    "album": "Invitation to Her's",
+    "duration": 220,
+    "bpm": 100,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "indie-pop",
+      "jangle"
+    ],
+    "mood": [
+      "chill",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s167",
+    "title": "From the Start",
+    "artist": "Laufey",
+    "album": "Everything I Know About Love",
+    "duration": 180,
+    "bpm": 110,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "jazz",
+      "pop-vocal"
+    ],
+    "mood": [
+      "romantic",
+      "chill"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s168",
+    "title": "Dream a Little Dream",
+    "artist": "Cass Elliot",
+    "album": "Dream a Little Dream",
+    "duration": 200,
+    "bpm": 70,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "jazz",
+      "pop-vocal"
+    ],
+    "mood": [
+      "warm",
+      "romantic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s169",
+    "title": "La Vie En Rose",
+    "artist": "Louis Armstrong",
+    "album": "La Vie En Rose",
+    "duration": 180,
+    "bpm": 75,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "jazz",
+      "swing"
+    ],
+    "mood": [
+      "romantic",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s170",
+    "title": "Fly Me to the Moon",
+    "artist": "Frank Sinatra",
+    "album": "It Might as Well Be Swing",
+    "duration": 165,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "jazz",
+      "swing"
+    ],
+    "mood": [
+      "romantic",
+      "chill"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s171",
+    "title": "What a Wonderful World",
+    "artist": "Louis Armstrong",
+    "album": "What a Wonderful World",
+    "duration": 140,
+    "bpm": 90,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "jazz",
+      "pop-vocal"
+    ],
+    "mood": [
+      "warm",
+      "happy"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s172",
+    "title": "Take Five",
+    "artist": "Dave Brubeck",
+    "album": "Time Out",
+    "duration": 320,
+    "bpm": 138,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "jazz",
+      "bebop"
+    ],
+    "mood": [
+      "chill",
+      "cool"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s173",
+    "title": "So What",
+    "artist": "Miles Davis",
+    "album": "Kind of Blue",
+    "duration": 545,
+    "bpm": 150,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "jazz",
+      "modal"
+    ],
+    "mood": [
+      "chill",
+      "cool"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s174",
+    "title": "Blue in Green",
+    "artist": "Miles Davis",
+    "album": "Kind of Blue",
+    "duration": 430,
+    "bpm": 140,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "jazz",
+      "modal"
+    ],
+    "mood": [
+      "calm",
+      "melancholy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s175",
+    "title": "Giant Steps",
+    "artist": "John Coltrane",
+    "album": "Giant Steps",
+    "duration": 280,
+    "bpm": 225,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "jazz",
+      "bebop"
+    ],
+    "mood": [
+      "energetic",
+      "intense"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s176",
+    "title": "Anysound",
+    "artist": "The Breeders",
+    "album": "Last Splash",
+    "duration": 150,
+    "bpm": 130,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-rock"
+    ],
+    "mood": [
+      "energetic",
+      "fun"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s177",
+    "title": "Where Is My Mind?",
+    "artist": "Pixies",
+    "album": "Surfer Rosa",
+    "duration": 210,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-rock",
+      "alternative"
+    ],
+    "mood": [
+      "energetic",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s178",
+    "title": "Mr. Brightside",
+    "artist": "The Killers",
+    "album": "Hot Fuss",
+    "duration": 220,
+    "bpm": 148,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-rock",
+      "pop-vocal"
+    ],
+    "mood": [
+      "energetic",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s179",
+    "title": "Take Me Out",
+    "artist": "Franz Ferdinand",
+    "album": "Franz Ferdinand",
+    "duration": 234,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-rock",
+      "dance-punk"
+    ],
+    "mood": [
+      "energetic",
+      "fun"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s180",
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "album": "A Night at the Opera",
+    "duration": 354,
+    "bpm": 144,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rock",
+      "cinematic"
+    ],
+    "mood": [
+      "energetic",
+      "dramatic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s181",
+    "title": "Don't Stop Me Now",
+    "artist": "Queen",
+    "album": "Jazz",
+    "duration": 210,
+    "bpm": 156,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rock",
+      "pop-vocal"
+    ],
+    "mood": [
+      "energetic",
+      "happy"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s182",
+    "title": "Somebody Told Me",
+    "artist": "The Killers",
+    "album": "Hot Fuss",
+    "duration": 190,
+    "bpm": 139,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-rock",
+      "new-wave"
+    ],
+    "mood": [
+      "energetic",
+      "fun"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s183",
+    "title": "Creep",
+    "artist": "Radiohead",
+    "album": "Pablo Honey",
+    "duration": 238,
+    "bpm": 92,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-rock",
+      "alternative"
+    ],
+    "mood": [
+      "melancholy",
+      "self-conscious"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s184",
+    "title": "No Surprises",
+    "artist": "Radiohead",
+    "album": "OK Computer",
+    "duration": 228,
+    "bpm": 76,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "indie-rock",
+      "alternative"
+    ],
+    "mood": [
+      "melancholy",
+      "calm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s185",
+    "title": "Karma Police",
+    "artist": "Radiohead",
+    "album": "OK Computer",
+    "duration": 259,
+    "bpm": 100,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "indie-rock"
+    ],
+    "mood": [
+      "melancholy",
+      "resigned"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s186",
+    "title": "Live Forever",
+    "artist": "Oasis",
+    "album": "Definitely Maybe",
+    "duration": 260,
+    "bpm": 100,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rock",
+      "britpop"
+    ],
+    "mood": [
+      "energetic",
+      "hopeful"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s187",
+    "title": "Wonderwall",
+    "artist": "Oasis",
+    "album": "What's the Story Morning Glory",
+    "duration": 258,
+    "bpm": 87,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rock",
+      "britpop"
+    ],
+    "mood": [
+      "nostalgic",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s188",
+    "title": "Don't Look Back in Anger",
+    "artist": "Oasis",
+    "album": "What's the Story Morning Glory",
+    "duration": 286,
+    "bpm": 130,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rock",
+      "britpop"
+    ],
+    "mood": [
+      "energetic",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s189",
+    "title": "Champagne Supernova",
+    "artist": "Oasis",
+    "album": "What's the Story Morning Glory",
+    "duration": 446,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rock",
+      "britpop"
+    ],
+    "mood": [
+      "energetic",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s190",
+    "title": "Bittersweet Symphony",
+    "artist": "The Verve",
+    "album": "Urban Hymns",
+    "duration": 356,
+    "bpm": 170,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "rock",
+      "britpop"
+    ],
+    "mood": [
+      "melancholy",
+      "epic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s191",
+    "title": "Linger",
+    "artist": "The Cranberries",
+    "album": "Everybody Else Is Doing It",
+    "duration": 280,
+    "bpm": 100,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "alternative",
+      "pop-vocal"
+    ],
+    "mood": [
+      "melancholy",
+      "romantic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s192",
+    "title": "Yellow",
+    "artist": "Coldplay",
+    "album": "Parachutes",
+    "duration": 266,
+    "bpm": 150,
+    "vocal_level": "low",
+    "is_instrumental": false,
+    "style": [
+      "alternative",
+      "pop-vocal"
+    ],
+    "mood": [
+      "warm",
+      "romantic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s193",
+    "title": "Fix You",
+    "artist": "Coldplay",
+    "album": "X&Y",
+    "duration": 295,
+    "bpm": 140,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "alternative",
+      "cinematic"
+    ],
+    "mood": [
+      "energetic",
+      "hopeful"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s194",
+    "title": "Viva La Vida",
+    "artist": "Coldplay",
+    "album": "Viva la Vida",
+    "duration": 242,
+    "bpm": 138,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "alternative",
+      "baroque-pop"
+    ],
+    "mood": [
+      "energetic",
+      "epic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s195",
+    "title": "Bitter Sweet Symphony",
+    "artist": "The Verve",
+    "album": "Urban Hymns",
+    "duration": 356,
+    "bpm": 170,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "britpop",
+      "rock"
+    ],
+    "mood": [
+      "melancholy",
+      "epic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s196",
+    "title": "Common People",
+    "artist": "Pulp",
+    "album": "Different Class",
+    "duration": 280,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "britpop",
+      "art-pop"
+    ],
+    "mood": [
+      "energetic",
+      "satirical"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s197",
+    "title": "Parklife",
+    "artist": "Blur",
+    "album": "Parklife",
+    "duration": 220,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "britpop",
+      "pop-vocal"
+    ],
+    "mood": [
+      "energetic",
+      "quirky"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s198",
+    "title": "Song 2",
+    "artist": "Blur",
+    "album": "Blur",
+    "duration": 120,
+    "bpm": 130,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "britpop",
+      "rock"
+    ],
+    "mood": [
+      "energetic",
+      "fun"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s199",
+    "title": "Dream",
+    "artist": "The Cranberries",
+    "album": "Everybody Else",
+    "duration": 240,
+    "bpm": 100,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "alternative",
+      "pop-vocal"
+    ],
+    "mood": [
+      "melancholy",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s200",
+    "title": "Zombie",
+    "artist": "The Cranberries",
+    "album": "No Need to Argue",
+    "duration": 300,
+    "bpm": 120,
+    "vocal_level": "medium",
+    "is_instrumental": false,
+    "style": [
+      "alternative",
+      "rock"
+    ],
+    "mood": [
+      "energetic",
+      "dark"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  }
+]

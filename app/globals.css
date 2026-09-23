@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+/* ============================================================
+   此刻音乐 — Design System
+   Vintage Music Journal + Scrapbook + Soft AI
+   ============================================================ */
+
+@theme inline {
+  /* Colors */
+  --color-bg: #f4ebdd;
+  --color-paper: #efe3d2;
+  --color-paper-dark: #e6d5bf;
+  --color-ink: #302b27;
+  --color-brown: #6b5745;
+  --color-olive: #84906b;
+  --color-brick: #b86f5e;
+  --color-cream: #e4c778;
+  --color-ink-light: #5c544d;
+  --color-paper-light: #f7f0e4;
+
+  /* Fonts */
+  --font-display: var(--font-caveat), "Caveat", cursive;
+  --font-body: var(--font-inter), "Inter", "Noto Sans SC", system-ui, sans-serif;
+
+  /* Shadows */
+  --shadow-paper: 0 1px 3px rgba(48, 43, 39, 0.08), 0 4px 12px rgba(48, 43, 39, 0.06);
+  --shadow-paper-hover: 0 4px 8px rgba(48, 43, 39, 0.12), 0 12px 28px rgba(48, 43, 39, 0.1);
+  --shadow-tape: 0 1px 2px rgba(48, 43, 39, 0.1);
+}
+
+/* Base */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Paper grain texture — subtle, never affects readability */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.35;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  background-size: 256px 256px;
+}
+
+/* Selection */
+::selection {
+  background: var(--color-cream);
+  color: var(--color-ink);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-paper);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brown);
+  border-radius: 4px;
+  opacity: 0.5;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ink);
+}
+
+/* Utility: paper card base */
+.paper-card {
+  background: var(--color-paper);
+  border: 1px solid rgba(107, 87, 69, 0.15);
+  box-shadow: var(--shadow-paper);
+  position: relative;
+}
+
+/* Tape strip */
+.tape {
+  position: absolute;
+  width: 80px;
+  height: 24px;
+  background: rgba(228, 199, 120, 0.6);
+  box-shadow: var(--shadow-tape);
+  transform: rotate(-3deg);
+  top: -10px;
+  left: 50%;
+  margin-left: -40px;
+  z-index: 2;
+}
+
+/* Handwritten label */
+.handwritten {
+  font-family: var(--font-display);
+}
+
+/* Hide scrollbar for horizontal scroll containers */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Animation keyframes */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2s ease-in-out infinite;
+}
