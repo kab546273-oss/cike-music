@@ -1,10 +1,9 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { motion } from "framer-motion";
 import { ArrowRight, Sparkles } from "lucide-react";
-import type { MusicPreferences, ParseResponse } from "@/types";
+import type { MusicPreferences, ParseFailureReason, ParseResponse } from "@/types";
 import { MOOD_PRESETS, SCENE_PRESETS } from "@/lib/constants";
 import { encodePreferences } from "@/lib/utils";
 import { trackEvent } from "@/lib/analytics";
@@ -12,7 +11,34 @@ import Navbar from "@/components/layout/Navbar";
 import PaperCard from "@/components/scrapbook/PaperCard";
 import SceneCard from "@/components/music/SceneCard";
 import MoodTag from "@/components/music/MoodTag";
-import AIThinking from "@/components/ai/AIThinking";
+import HeroNote from "@/components/home/HeroNote";
+
+/** 输入框轮播示例：每 4 秒换一句，像有人在提示你说什么。 */
+const PLACEHOLDER_SAMPLES = [
+  "下午有点累，想喝杯咖啡看会儿书",
+  "睡不着，想听点安静的……",
+  "想去跑个步，来点有劲的",
+  "在图书馆复习，别放有人唱的歌",
+  "通勤路上，想听点轻松的",
+  "周末晚上，想微醺一下",
+];
+const HINT_INTERVAL_MS = 4000;
+
+/** 失败原因 → 用户能看懂的下一步（旧版无论什么原因都说同一句话）。 */
+function parseErrorMessage(reason: ParseFailureReason): string {
+  switch (reason) {
+    case "LLM_NOT_CONFIGURED":
+      return "自然语言解析还没接通（服务端未配置模型密钥），先从下面选一个场景吧。";
+    case "LLM_TIMEOUT":
+      return "AI 这次想得有点久，先给你一个场景，或者再描述一次。";
+    case "INVALID_OUTPUT":
+      return "AI 的回答我没能读懂，换一种说法我再试一次？";
+    case "LOW_CONFIDENCE":
+      return "我还不太确定你的状态，可以从下面选一个场景。";
+    default:
+      return "刚才没能理解你的描述，可以从下面选一个场景。";
+  }
+}
 
 export default function HomePage() {
   const router = useRouter();
@@ -21,7 +47,18 @@ export default function HomePage() {
   const [text, setText] = useState("");
   const [selectedMoods, setSelectedMoods] = useState<string[]>([]);
   const [thinking, setThinking] = useState(false);
-  const [parseError, setParseError] = useState(false);
+  const [parseError, setParseError] = useState<ParseFailureReason | null>(null);
+  const [hintIndex, setHintIndex] = useState(0);
+
+  // 轮播提示只在"还没开口、也没在解析"时滚动，不跟正在打字的用户抢
+  useEffect(() => {
+    if (text.length > 0 || thinking) return;
+    const id = setInterval(
+      () => setHintIndex((i) => (i + 1) % PLACEHOLDER_SAMPLES.length),
+      HINT_INTERVAL_MS
+    );
+    return () => clearInterval(id);
+  }, [text, thinking]);
 
   /** Encode preferences and jump to the generated playlist page. */
   const generatePlaylist = (prefs: MusicPreferences) => {
@@ -37,18 +74,21 @@ export default function HomePage() {
     confidence: 0.8,
   });
 
+  /**
+   * 心情标签是单选：MusicPreferences.mood 只能表达一个心情。
+   * 旧版允许多选、却只取 selectedMoods[0]，选三个静默生效一个。
+   */
   const toggleMood = (id: string) => {
-    setSelectedMoods((prev) =>
-      prev.includes(id) ? prev.filter((m) => m !== id) : [...prev, id]
-    );
+    setSelectedMoods((prev) => (prev.includes(id) ? [] : [id]));
   };
 
   const handleTextSubmit = async () => {
     const trimmed = text.trim();
     if (!trimmed || thinking) return;
-    trackEvent("text_submit", { text: trimmed });
+    // 只上报长度，不上报用户原文（埋点会进服务端日志）。
+    trackEvent("text_submit", { textLength: trimmed.length });
     setThinking(true);
-    setParseError(false);
+    setParseError(null);
     try {
       const res = await fetch("/api/parse", {
         method: "POST",
@@ -67,11 +107,11 @@ export default function HomePage() {
         return;
       }
       // graceful degradation to scene picker
-      setParseError(true);
+      setParseError(data.reason ?? "UNKNOWN");
       setThinking(false);
       setTimeout(() => scenesRef.current?.scrollIntoView({ behavior: "smooth" }), 50);
     } catch {
-      setParseError(true);
+      setParseError("UNKNOWN");
       setThinking(false);
       setTimeout(() => scenesRef.current?.scrollIntoView({ behavior: "smooth" }), 50);
     }
@@ -90,31 +130,31 @@ export default function HomePage() {
       <Navbar />
 
       <main className="mx-auto w-full max-w-5xl flex-1 px-4 pb-24">
-        {/* Hero */}
-        <section className="pt-12 text-center sm:pt-16">
-          <motion.h1
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ type: "spring", stiffness: 200, damping: 22 }}
-            className="handwritten text-5xl leading-tight text-ink sm:text-6xl"
-          >
-            现在的你，
-            <br />
-            <span className="text-brick">想听什么？</span>
-          </motion.h1>
-          <p className="mt-4 text-brown">不用找歌，告诉我这一刻。</p>
-        </section>
+        {/* Hero：便签 + 音乐拼贴 + 标题逐字写出；提交后换成"正在理解这一刻…" */}
+        <HeroNote thinking={thinking} />
 
         {/* Natural language input */}
         <section className="mx-auto mt-8 max-w-xl">
           <PaperCard rotation={-0.4} className="p-5">
-            <textarea
-              value={text}
-              onChange={(e) => setText(e.target.value)}
-              rows={3}
-              placeholder="下午有点累，想喝杯咖啡看会儿书……"
-              className="w-full resize-none rounded-md border border-paper-dark bg-paper-light/60 p-3 text-sm text-ink placeholder:text-brown/60 focus:border-olive focus:outline-none"
-            />
+            <div className="relative">
+              <textarea
+                value={text}
+                onChange={(e) => setText(e.target.value)}
+                rows={3}
+                aria-label="说说这一刻，比如：下午有点累，想喝杯咖啡看会儿书"
+                className="w-full resize-none rounded-md border border-paper-dark bg-paper-light/60 p-3 text-sm text-ink focus:border-olive focus:outline-none"
+              />
+              {/* 原生 placeholder 换成可以淡入淡出的轮播提示 */}
+              {text.length === 0 && !thinking ? (
+                <span
+                  key={hintIndex}
+                  aria-hidden
+                  className="ph-fade pointer-events-none absolute left-3 top-3 text-sm text-brown"
+                >
+                  {PLACEHOLDER_SAMPLES[hintIndex]}
+                </span>
+              ) : null}
+            </div>
             <div className="mt-3 flex items-center justify-between gap-3">
               <span className="inline-flex items-center gap-1 text-xs text-brown">
                 <Sparkles size={12} /> ✦ AI 会帮你理解这一刻
@@ -131,13 +171,9 @@ export default function HomePage() {
             </div>
           </PaperCard>
 
-          <div className="mt-4">
-            <AIThinking visible={thinking} />
-          </div>
-
           {parseError ? (
             <p className="mt-4 text-center text-sm text-brown">
-              我还不太确定你的状态，可以从下面选一个场景。
+              {parseErrorMessage(parseError)}
             </p>
           ) : null}
         </section>
@@ -145,7 +181,8 @@ export default function HomePage() {
         {/* Mood tags */}
         <section className="mt-12">
           <h2 className="handwritten mb-4 text-3xl text-ink">此刻的心情</h2>
-          <div className="no-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4 pb-2">
+          {/* 换成手绘图标后 chip 变宽，改为换行显示，避免第 12 个被裁掉 */}
+          <div className="flex flex-wrap gap-2 pb-2">
             {MOOD_PRESETS.map((mood) => (
               <MoodTag
                 key={mood.id}
@@ -159,7 +196,7 @@ export default function HomePage() {
 
         {/* Scene cards */}
         <section ref={scenesRef} className="mt-10 scroll-mt-20">
-          <h2 className="handwritten mb-5 text-3xl text-ink">或者选一个场景</h2>
+          <h2 className="handwritten mb-5 text-3xl text-ink">此刻的场景</h2>
           <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-4">
             {SCENE_PRESETS.map((scene) => (
               <SceneCard

@@ -9,13 +9,14 @@
 interface DoodleProps {
   size?: number;
   className?: string;
+  /** 卡带专用：让两个卷盘转起来（默认关闭，封面里的卡带不受影响） */
+  spinning?: boolean;
 }
 
 const ink = "#5a4a3a";
 const olive = "#84906B";
 const brick = "#B86F5E";
 const cream = "#D4B96A";
-const brown = "#8a7058";
 const blue = "#7A8FA6";
 const pink = "#C9907E";
 const soft = "#E8DCC8";
@@ -48,15 +49,28 @@ export function DoodleHeadphones({ size = 48, className }: DoodleProps) {
 /* ---------------------------------------------------------- */
 /* 2. Cassette tape                                           */
 /* ---------------------------------------------------------- */
-export function DoodleCassette({ size = 48, className }: DoodleProps) {
+export function DoodleCassette({ size = 48, className, spinning = false }: DoodleProps) {
+  /** 卷盘：spinning 时包一层可旋转的 g，并加两根辐条让转动看得出来 */
+  const reel = (cx: number, reverse: boolean) => (
+    <g
+      className={
+        spinning ? (reverse ? "reel-spin-reverse" : "reel-spin") : undefined
+      }
+    >
+      <circle cx={cx} cy="31" r="3.5" fill={cream} />
+      <circle cx={cx} cy="31" r="1" fill={ink} />
+      {spinning ? (
+        <path d={`M${cx} 28.6 v4.8 M${cx - 2.4} 31 h4.8`} strokeWidth="0.8" />
+      ) : null}
+    </g>
+  );
+
   return (
     <svg {...baseProps(size, className)} stroke={ink} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
       <rect x="6" y="12" width="36" height="26" rx="2.5" fill={soft} fillOpacity="0.6" />
       <rect x="10" y="17" width="28" height="8" rx="1" fill={cream} fillOpacity="0.4" />
-      <circle cx="17" cy="31" r="3.5" fill={cream} />
-      <circle cx="31" cy="31" r="3.5" fill={cream} />
-      <circle cx="17" cy="31" r="1" fill={ink} />
-      <circle cx="31" cy="31" r="1" fill={ink} />
+      {reel(17, false)}
+      {reel(31, true)}
       <path d="M14 13.5h20" strokeWidth="1" />
     </svg>
   );

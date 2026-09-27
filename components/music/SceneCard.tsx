@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import type { ScenePreset } from "@/lib/constants";
 import { cn } from "@/lib/utils";
+import { SceneIcon } from "@/components/scrapbook/DoodleIcons";
 
 interface SceneCardProps {
   scene: ScenePreset;
@@ -25,9 +26,7 @@ export default function SceneCard({ scene, onClick, selected }: SceneCardProps) 
         selected && "ring-2 ring-brick"
       )}
     >
-      <span className="text-3xl leading-none" aria-hidden>
-        {scene.emoji}
-      </span>
+      <SceneIcon id={scene.id} size={30} />
       <span className="handwritten text-2xl leading-tight text-ink">{scene.label}</span>
     </motion.button>
   );

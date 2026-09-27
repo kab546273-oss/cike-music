@@ -4,7 +4,9 @@ import { DOODLES } from "@/components/scrapbook/Doodles";
 
 interface SongCoverProps {
   song: Song;
-  /** pixel size (width & height) */
+  /** Tailwind size classes for the sticker box, e.g. "w-10 h-10 sm:w-12 sm:h-12". */
+  sizeClass?: string;
+  /** Fallback pixel size if sizeClass is not provided. */
   size?: number;
   /** list index — used to avoid adjacent doodle repeats */
   index?: number;
@@ -36,7 +38,13 @@ const PAPER_TONES = [
  * deterministic per song id, with slight rotation/scale jitter so
  * covers feel hand-placed rather than grid-aligned.
  */
-export default function SongCover({ song, size = 56, index = 0, className }: SongCoverProps) {
+export default function SongCover({
+  song,
+  sizeClass,
+  size = 56,
+  index = 0,
+  className,
+}: SongCoverProps) {
   const h = hash(song.id + ":" + index);
 
   // Pick doodle — bias away from the previous one when index is known.
@@ -55,20 +63,26 @@ export default function SongCover({ song, size = 56, index = 0, className }: Son
 
   const bg = PAPER_TONES[h % PAPER_TONES.length];
 
-  const style: CSSProperties = {
-    width: size,
-    height: size,
-    background: bg,
-    transform: `rotate(${rotation}deg) scale(${scale})`,
-  };
+  const style: CSSProperties = sizeClass
+    ? { background: bg, transform: `rotate(${rotation}deg) scale(${scale})` }
+    : {
+        width: size,
+        height: size,
+        background: bg,
+        transform: `rotate(${rotation}deg) scale(${scale})`,
+      };
 
   return (
     <div
       style={style}
-      className={`flex shrink-0 items-center justify-center rounded-md border border-brown/15 shadow-[0_1px_3px_rgba(48,43,39,0.12)] ${className ?? ""}`}
+      className={`flex shrink-0 items-center justify-center rounded-md border border-brown/15 shadow-[0_1px_3px_rgba(48,43,39,0.12)] ${sizeClass ?? ""} ${className ?? ""}`}
       aria-hidden
     >
-      <Doodle size={size * 0.72} />
+      {sizeClass ? (
+        <Doodle className="h-[72%] w-[72%]" />
+      ) : (
+        <Doodle size={size * 0.72} />
+      )}
     </div>
   );
 }

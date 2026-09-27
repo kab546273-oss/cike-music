@@ -47,38 +47,41 @@ export default function PlayerBar({
           transition={{ type: "spring", stiffness: 260, damping: 26 }}
           className="fixed inset-x-0 bottom-0 z-40 border-t border-paper-dark bg-paper/95 shadow-[0_-4px_20px_rgba(48,43,39,0.12)] backdrop-blur"
         >
-          <div className="mx-auto flex max-w-3xl items-center gap-3 px-4 py-3">
-            <SongCover song={song} size={44} />
+          <div className="mx-auto flex max-w-3xl items-center gap-2 sm:gap-3 px-3 sm:px-4 py-2 sm:py-3">
+            <SongCover song={song} size={40} />
 
-            <div className="min-w-0 w-28 sm:w-40">
+            <div className="min-w-0 flex-1 sm:w-40 sm:flex-none">
               <p className="truncate text-sm font-semibold text-ink">{song.title}</p>
               <p className="truncate text-xs text-brown">{song.artist}</p>
             </div>
 
-            <div className="flex items-center gap-1">
+            <div className="flex shrink-0 items-center gap-0.5 sm:gap-1">
               <button
                 type="button"
                 onClick={onPrev}
-                className="rounded-full p-2 text-brown transition-colors hover:text-ink"
+                className="flex h-11 w-11 items-center justify-center rounded-full text-brown transition-colors hover:text-ink"
                 aria-label="上一首"
               >
-                <SkipBack size={18} />
+                <SkipBack size={20} />
               </button>
               <button
                 type="button"
                 onClick={onPlayPause}
-                className="rounded-full bg-ink p-2.5 text-paper-light transition-transform hover:scale-105"
+                className="flex h-12 w-12 items-center justify-center rounded-full bg-ink text-paper-light transition-transform hover:scale-105"
                 aria-label={isPlaying ? "暂停" : "播放"}
               >
-                {isPlaying ? <Pause size={18} /> : <Play size={18} className="translate-x-[1px]" />}
+                {isPlaying ? <Pause size={20} /> : <Play size={20} className="translate-x-[1px]" />}
               </button>
               <button
                 type="button"
                 onClick={() => (onSkip ? onSkip() : onNext())}
-                className="rounded-full p-2 text-brown transition-colors hover:text-ink"
-                aria-label={onSkip ? "不喜欢这首" : "下一首"}
+                className="flex h-11 w-11 items-center justify-center rounded-full text-brown transition-colors hover:text-ink"
+                aria-label={
+                  onSkip ? "不喜欢这首" : "下一首，连续跳过会重新理解你的偏好"
+                }
+                title={onSkip ? "不喜欢这首" : "下一首（连续跳过 2 首触发重新理解）"}
               >
-                <SkipForward size={18} />
+                <SkipForward size={20} />
               </button>
             </div>
 
@@ -100,7 +103,7 @@ export default function PlayerBar({
               <button
                 type="button"
                 onClick={onOpenLossless}
-                className="ml-auto inline-flex shrink-0 items-center gap-1 rounded-full bg-olive px-2.5 py-1 text-[11px] font-semibold text-paper-light sm:ml-0"
+                className="ml-auto inline-flex h-9 shrink-0 items-center gap-1 rounded-full bg-olive px-3 text-[11px] font-semibold text-paper-light sm:ml-0"
               >
                 <Sparkles size={12} /> 无损
               </button>

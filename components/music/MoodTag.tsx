@@ -2,6 +2,7 @@
 
 import type { MoodPreset } from "@/lib/constants";
 import { cn } from "@/lib/utils";
+import { DOODLE_INK_LIGHT, MoodIcon } from "@/components/scrapbook/DoodleIcons";
 
 interface MoodTagProps {
   mood: MoodPreset;
@@ -9,7 +10,7 @@ interface MoodTagProps {
   onClick: () => void;
 }
 
-/** A selectable mood chip (multi-select overlay). */
+/** A selectable mood chip. Single-select — MusicPreferences.mood holds one value. */
 export default function MoodTag({ mood, selected, onClick }: MoodTagProps) {
   return (
     <button
@@ -22,9 +23,13 @@ export default function MoodTag({ mood, selected, onClick }: MoodTagProps) {
           : "border-paper-dark bg-paper text-ink hover:bg-paper-dark"
       )}
     >
-      <span aria-hidden className="text-base leading-none">
-        {mood.emoji}
-      </span>
+      {/* 选中的 chip 是砖红底，墨线要换成纸白色才够对比 */}
+      <MoodIcon
+        id={mood.id}
+        size={18}
+        className="shrink-0"
+        strokeColor={selected ? DOODLE_INK_LIGHT : undefined}
+      />
       <span>{mood.label}</span>
     </button>
   );

@@ -7,10 +7,15 @@ import PaperCard from "@/components/scrapbook/PaperCard";
 interface AIRegenerationProps {
   visible: boolean;
   onComplete: () => void;
-  /** chips that were ruled out (illustrative) */
-  excluded?: string[];
-  /** new chips after re-understanding (illustrative) */
-  added?: string[];
+  /**
+   * Real chips coming from the /api/feedback diff — the styles that
+   * were newly excluded, and the mood / BPM band that changed.
+   * These used to be hardcoded ("− 高人声 / + 治愈"), which made the
+   * most trust-critical screen in the product show invented data.
+   */
+  excluded: string[];
+  /** New preferences after re-understanding. */
+  added: string[];
 }
 
 /**
@@ -20,8 +25,8 @@ interface AIRegenerationProps {
 export default function AIRegeneration({
   visible,
   onComplete,
-  excluded = ["高人声", "快节奏"],
-  added = ["治愈", "平静"],
+  excluded,
+  added,
 }: AIRegenerationProps) {
   // step: 0 hidden, 1..6 visible lines, 7 finished
   const [step, setStep] = useState(0);
@@ -63,7 +68,7 @@ export default function AIRegeneration({
           exit={{ opacity: 0, scale: 0.96 }}
           transition={{ type: "spring", stiffness: 260, damping: 22 }}
         >
-          <PaperCard tape rotation={-0.8} className="mx-auto max-w-md p-7">
+          <PaperCard rotation={-0.8} className="mx-auto max-w-md p-7">
             <div className="flex min-h-[180px] flex-col justify-center gap-3">
               {step >= 1 && (
                 <Line delay={0.05}>
@@ -75,7 +80,7 @@ export default function AIRegeneration({
                   <span className="text-sm text-brown">你似乎不太喜欢刚才的风格。</span>
                 </Line>
               )}
-              {step >= 3 && (
+              {step >= 3 && excluded.length > 0 ? (
                 <div className="flex flex-wrap gap-2">
                   {excluded.map((label, i) => (
                     <motion.span
@@ -89,7 +94,7 @@ export default function AIRegeneration({
                     </motion.span>
                   ))}
                 </div>
-              )}
+              ) : null}
               {step >= 4 && (
                 <Line delay={0.05}>
                   <span className="handwritten text-xl text-brown">
@@ -97,7 +102,7 @@ export default function AIRegeneration({
                   </span>
                 </Line>
               )}
-              {step >= 5 && (
+              {step >= 5 && added.length > 0 ? (
                 <div className="flex flex-wrap gap-2">
                   {added.map((label, i) => (
                     <motion.span
@@ -111,7 +116,12 @@ export default function AIRegeneration({
                     </motion.span>
                   ))}
                 </div>
-              )}
+              ) : null}
+              {step >= 5 && added.length === 0 ? (
+                <Line delay={0.05}>
+                  <span className="text-sm text-brown">这次已经换过方向了。</span>
+                </Line>
+              ) : null}
               {step >= 6 && (
                 <Line delay={0.05}>
                   <span className="handwritten text-2xl text-olive">调整完成 ✓</span>

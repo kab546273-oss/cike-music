@@ -33,7 +33,7 @@ export default function MemberModal({ open, onClose }: MemberModalProps) {
             <button
               type="button"
               onClick={onClose}
-              className="absolute right-3 top-3 rounded-full p-1 text-brown/50 hover:text-ink"
+              className="absolute right-3 top-3 flex h-9 w-9 items-center justify-center rounded-full text-brown/85 hover:text-ink"
               aria-label="关闭"
             >
               <X size={18} />

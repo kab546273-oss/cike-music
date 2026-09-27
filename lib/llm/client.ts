@@ -67,6 +67,28 @@ interface ChatCompletionResponse {
 }
 
 /**
+ * Provider-specific request extras.
+ *
+ * `thinking: { type: "disabled" }` is a Volcengine Ark parameter —
+ * the public OpenAI endpoint rejects unknown parameters like it with
+ * a 400, which broke the README's "OpenAI-compatible" promise. The
+ * extras are therefore selected per provider (or forced via
+ * LLM_DISABLE_THINKING) instead of being hardcoded.
+ */
+function providerExtras(baseUrl: string): Record<string, unknown> {
+  const extras: Record<string, unknown> = {
+    response_format: { type: "json_object" },
+  };
+
+  const isArk = /volces\.com|volcengine|ark\.cn-/i.test(baseUrl);
+  const override = process.env.LLM_DISABLE_THINKING;
+  const disableThinking = override ? override === "true" : isArk;
+
+  if (disableThinking) extras.thinking = { type: "disabled" };
+  return extras;
+}
+
+/**
  * Call the LLM with the given user text and return the raw
  * assistant message content. Throws LLMTimeoutError / LLMAPIError
  * / LLMParseError on failure.
@@ -92,8 +114,7 @@ export async function callLLM(userText: string): Promise<string> {
           { role: "user", content: userText },
         ],
         temperature: 0.3,
-        response_format: { type: "json_object" },
-        thinking: { type: "disabled" },
+        ...providerExtras(config.baseUrl),
       }),
       signal: controller.signal,
     });

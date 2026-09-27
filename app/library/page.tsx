@@ -8,6 +8,7 @@ import { ArrowRight } from "lucide-react";
 import type { Playlist } from "@/types";
 import { deletePlaylist, getPlaylists } from "@/lib/storage";
 import { encodePreferences } from "@/lib/utils";
+import { trackEvent } from "@/lib/analytics";
 import Navbar from "@/components/layout/Navbar";
 import PlaylistCard from "@/components/music/PlaylistCard";
 
@@ -20,12 +21,19 @@ export default function LibraryPage() {
     // read from localStorage (external store) on mount
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setPlaylists(getPlaylists());
-     
     setHydrated(true);
   }, []);
 
   const handlePlay = (playlist: Playlist) => {
-    router.push(`/playlist?p=${encodePreferences(playlist.preferences)}`);
+    trackEvent("playlist_replay", {
+      playlistId: playlist.id,
+      count: playlist.songs.length,
+    });
+    // 带上 id：歌单页会按 id 取回保存的那批曲子原样播放，
+    // 而不是用 preferences 重新生成一份"看起来差不多"的歌单。
+    router.push(
+      `/playlist?p=${encodePreferences(playlist.preferences)}&id=${encodeURIComponent(playlist.id)}`
+    );
   };
 
   const handleDelete = (id: string) => {

@@ -7,7 +7,7 @@
 // ============================================================
 
 import { callLLM, LLMParseError } from "./client";
-import { MusicPreferencesSchema, type ParsedMusicPreferences } from "./schema";
+import { normalizePreferences } from "./schema";
 import type { MusicPreferences } from "@/types";
 
 /** Thrown when the LLM's own confidence is below the configured floor. */
@@ -51,34 +51,41 @@ export interface ParseIntentResult {
 }
 
 /**
+ * scene / mood are normalized onto the app vocabulary, and anything
+ * unrecognizable becomes null. That is the right behaviour (an unknown
+ * value would silently miss every weight and label table), but it must
+ * not be silent on the server.
+ */
+function warnOnDroppedVocabulary(rawJson: unknown, preferences: MusicPreferences): void {
+  if (typeof rawJson !== "object" || rawJson === null) return;
+  const raw = rawJson as Record<string, unknown>;
+  for (const key of ["scene", "mood"] as const) {
+    const value = raw[key];
+    if (typeof value === "string" && value.trim() !== "" && preferences[key] === null) {
+      console.warn(
+        `[parseIntent] unknown ${key} "${value}" → null. 如果是合理的新值，请补进 lib/constants.ts 的词表。`,
+      );
+    }
+  }
+}
+
+/**
  * End-to-end intent parsing: call LLM → extract JSON → validate →
  * enforce confidence floor. Re-throws on any failure.
  */
 export async function parseIntent(text: string): Promise<ParseIntentResult> {
   const raw = await callLLM(text);
   const json = extractJson(raw);
-  const parsed: ParsedMusicPreferences = MusicPreferencesSchema.parse(json);
+  const preferences = normalizePreferences(json);
 
   const minConfidenceRaw = Number(process.env.LLM_MIN_CONFIDENCE ?? DEFAULT_MIN_CONFIDENCE);
   const minConfidence = Number.isFinite(minConfidenceRaw) ? minConfidenceRaw : DEFAULT_MIN_CONFIDENCE;
 
-  if (parsed.confidence < minConfidence) {
-    throw new LowConfidenceError(parsed.confidence);
+  if (preferences.confidence < minConfidence) {
+    throw new LowConfidenceError(preferences.confidence);
   }
 
-  // Normalize bpm bounds so min <= max regardless of LLM ordering.
-  const bpm_min = Math.min(parsed.bpm_min, parsed.bpm_max);
-  const bpm_max = Math.max(parsed.bpm_min, parsed.bpm_max);
+  warnOnDroppedVocabulary(json, preferences);
 
-  const preferences: MusicPreferences = {
-    scene: parsed.scene,
-    mood: parsed.mood,
-    bpm_min,
-    bpm_max,
-    vocal: parsed.vocal,
-    exclude_style: parsed.exclude_style ?? [],
-    confidence: parsed.confidence,
-  };
-
-  return { preferences, confidence: parsed.confidence };
+  return { preferences, confidence: preferences.confidence };
 }

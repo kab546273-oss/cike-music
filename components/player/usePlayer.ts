@@ -5,7 +5,7 @@ import type { Song } from "@/types";
 
 interface UsePlayerOptions {
   /** fired once a track has been played through ≥70% (used to reset skip counter) */
-  onCompletePlay?: () => void;
+  onCompletePlay?: (song: Song) => void;
   /** fired when the user explicitly skips the current track */
   onSkip?: (song: Song) => void;
 }
@@ -76,16 +76,21 @@ export function usePlayer(options: UsePlayerOptions = {}) {
   }, []);
 
   const next = useCallback((manual = false) => {
-    const song = playlistRef.current[latestIndexRef.current];
+    // Read from refs instead of inside a setState updater: updaters must
+    // stay pure (React double-invokes them in StrictMode, which used to
+    // fire setIsPlaying twice per skip).
+    const list = playlistRef.current;
+    const song = list[latestIndexRef.current];
     if (manual && song) onSkipRef.current?.(song);
-    setIndex((i) => {
-      const n = i + 1;
-      if (n >= playlistRef.current.length) {
-        setIsPlaying(false);
-        return i;
-      }
-      return n;
-    });
+
+    const n = latestIndexRef.current + 1;
+    if (n >= list.length) {
+      setIsPlaying(false);
+      setCurrentTime(0);
+      notifiedRef.current = false;
+      return;
+    }
+    setIndex(n);
     setCurrentTime(0);
     notifiedRef.current = false;
   }, []);
@@ -118,19 +123,19 @@ export function usePlayer(options: UsePlayerOptions = {}) {
     if (!currentSong || duration <= 0) return;
     if (!notifiedRef.current && currentTime / duration >= 0.7) {
       notifiedRef.current = true;
-      onCompletePlayRef.current?.();
+      onCompletePlayRef.current?.(currentSong);
     }
     if (currentTime >= duration) {
-      setIndex((i) => {
-        const n = i + 1;
-        if (n >= playlistRef.current.length) {
-          setIsPlaying(false);
-          return i;
-        }
-        return n;
-      });
+      const n = latestIndexRef.current + 1;
+      // 由 500ms 计时器驱动的状态迁移（曲终 → 下一首），不是级联渲染。
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setCurrentTime(0);
       notifiedRef.current = false;
+      if (n >= playlistRef.current.length) {
+        setIsPlaying(false);
+      } else {
+        setIndex(n);
+      }
     }
   }, [currentTime, currentSong, duration]);
 

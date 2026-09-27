@@ -7,8 +7,9 @@
 // plays. Click or drag to seek.
 // ============================================================
 
-import { useCallback, useRef } from "react";
+import { useCallback, useRef, useState } from "react";
 import { CHARACTERS, pickCharacter } from "@/components/scrapbook/Characters";
+import { formatTime } from "@/lib/utils";
 
 interface HandDrawnProgressProps {
   /** 0 ~ 1 */
@@ -76,7 +77,9 @@ export default function HandDrawnProgress({
   compact = false,
 }: HandDrawnProgressProps) {
   const barRef = useRef<HTMLDivElement>(null);
-  const draggingRef = useRef(false);
+  // State (not a ref) — the transition rules below are read during render,
+  // and React forbids touching refs in render (react-hooks/refs).
+  const [dragging, setDragging] = useState(false);
 
   const charIdx = pickCharacter(songId);
   const Char = CHARACTERS[charIdx];
@@ -95,7 +98,7 @@ export default function HandDrawnProgress({
 
   const handlePointerDown = useCallback(
     (e: React.PointerEvent) => {
-      draggingRef.current = true;
+      setDragging(true);
       (e.target as HTMLElement).setPointerCapture(e.pointerId);
       seekFromClientX(e.clientX);
     },
@@ -104,14 +107,14 @@ export default function HandDrawnProgress({
 
   const handlePointerMove = useCallback(
     (e: React.PointerEvent) => {
-      if (!draggingRef.current) return;
+      if (!dragging) return;
       seekFromClientX(e.clientX);
     },
-    [seekFromClientX]
+    [dragging, seekFromClientX]
   );
 
   const handlePointerUp = useCallback((e: React.PointerEvent) => {
-    draggingRef.current = false;
+    setDragging(false);
     try {
       (e.target as HTMLElement).releasePointerCapture(e.pointerId);
     } catch {
@@ -119,22 +122,47 @@ export default function HandDrawnProgress({
     }
   }, []);
 
+  /** 键盘可操作：← → 微调，Shift 加大步长，Home / End 跳首尾。 */
+  const handleKeyDown = useCallback(
+    (e: React.KeyboardEvent) => {
+      if (duration <= 0) return;
+      const step = e.shiftKey ? 0.1 : 0.02;
+      if (e.key === "ArrowRight") {
+        e.preventDefault();
+        onSeek(Math.min(duration, (progress + step) * duration));
+      } else if (e.key === "ArrowLeft") {
+        e.preventDefault();
+        onSeek(Math.max(0, (progress - step) * duration));
+      } else if (e.key === "Home") {
+        e.preventDefault();
+        onSeek(0);
+      } else if (e.key === "End") {
+        e.preventDefault();
+        onSeek(duration);
+      }
+    },
+    [duration, onSeek, progress]
+  );
+
   const charSize = compact ? 18 : 22;
   const barHeight = compact ? 22 : 30;
 
   return (
     <div
       ref={barRef}
-      className="relative w-full cursor-pointer select-none touch-none"
+      className="relative w-full cursor-pointer select-none touch-none rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brick/50"
       style={{ height: barHeight }}
       onPointerDown={handlePointerDown}
       onPointerMove={handlePointerMove}
       onPointerUp={handlePointerUp}
       onPointerCancel={handlePointerUp}
+      onKeyDown={handleKeyDown}
+      tabIndex={0}
       role="slider"
       aria-valuenow={Math.round(progress * 100)}
       aria-valuemin={0}
       aria-valuemax={100}
+      aria-valuetext={`${formatTime(progress * duration)} / ${formatTime(duration)}`}
       aria-label="播放进度"
     >
       <svg
@@ -162,7 +190,7 @@ export default function HandDrawnProgress({
           fill="none"
           pathLength={1}
           strokeDasharray={`${Math.max(0.001, progress)} 1`}
-          style={{ transition: draggingRef.current ? "none" : "stroke-dasharray 0.3s linear" }}
+          style={{ transition: dragging ? "none" : "stroke-dasharray 0.3s linear" }}
         />
 
         {/* decorative marks */}
@@ -177,7 +205,7 @@ export default function HandDrawnProgress({
         style={{
           left: `${progress * 100}%`,
           transform: `translate(-50%, -55%)`,
-          transition: draggingRef.current ? "none" : "left 0.3s linear",
+          transition: dragging ? "none" : "left 0.3s linear",
         }}
       >
         <div

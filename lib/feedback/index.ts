@@ -8,6 +8,7 @@
 // ============================================================
 
 import { MOOD_RELATIONS } from "@/lib/recommendation/scoring";
+import { MAX_REGENERATIONS, REGENERATION_MESSAGE } from "@/lib/constants";
 import type { MusicPreferences } from "@/types";
 
 /** Minimal shape needed from a skipped song (structurally compatible with Song). */
@@ -16,9 +17,12 @@ export interface SkippedSongInfo {
   mood: string[];
 }
 
-export const MAX_REGENERATIONS = 2;
+// 重生成规则只有一份定义（lib/constants.ts），客户端与服务端共用，
+// 避免 app/playlist 里另写一份 MAX_REGEN 后与后端漂移。
+export { MAX_REGENERATIONS, REGENERATION_MESSAGE };
+
+/** Confidence written onto adjusted preferences. */
 export const FEEDBACK_CONFIDENCE = 0.85;
-export const REGENERATION_MESSAGE = "我们换个描述试试，也许会更接近你。";
 
 export interface FeedbackOutcome {
   shouldRegenerate: boolean;

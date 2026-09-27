@@ -46,9 +46,8 @@ export function trackEvent(
     payload,
   };
 
-  // Demo visibility in console.
-   
-  console.log(`[analytics] ${type}`, payload ?? "");
+  // Demo visibility in console — 只打事件名，payload 可能含用户输入。
+  console.log(`[analytics] ${type}`);
 
   queue.push(event);
 

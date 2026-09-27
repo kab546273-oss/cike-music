@@ -14,7 +14,8 @@
     ],
     "mood": [
       "warm",
-      "nostalgic"
+      "nostalgic",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": true
@@ -74,7 +75,8 @@
     ],
     "mood": [
       "warm",
-      "chill"
+      "chill",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": false
@@ -93,7 +95,8 @@
     ],
     "mood": [
       "romantic",
-      "warm"
+      "warm",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": true
@@ -113,7 +116,8 @@
     ],
     "mood": [
       "chill",
-      "warm"
+      "warm",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": false
@@ -192,7 +196,8 @@
     ],
     "mood": [
       "warm",
-      "romantic"
+      "romantic",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": false
@@ -212,7 +217,8 @@
     ],
     "mood": [
       "chill",
-      "warm"
+      "warm",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": false
@@ -232,7 +238,8 @@
     ],
     "mood": [
       "warm",
-      "nostalgic"
+      "nostalgic",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": true
@@ -272,7 +279,8 @@
     ],
     "mood": [
       "romantic",
-      "warm"
+      "warm",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": true
@@ -311,7 +319,8 @@
     ],
     "mood": [
       "chill",
-      "warm"
+      "warm",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": false
@@ -330,7 +339,8 @@
     ],
     "mood": [
       "romantic",
-      "warm"
+      "warm",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": true
@@ -350,7 +360,8 @@
     ],
     "mood": [
       "chill",
-      "warm"
+      "warm",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": false
@@ -370,7 +381,8 @@
     ],
     "mood": [
       "chill",
-      "calm"
+      "calm",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": true
@@ -427,7 +439,8 @@
     ],
     "mood": [
       "warm",
-      "calm"
+      "calm",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": false
@@ -446,7 +459,8 @@
     ],
     "mood": [
       "warm",
-      "romantic"
+      "romantic",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": true
@@ -485,7 +499,8 @@
     ],
     "mood": [
       "calm",
-      "warm"
+      "warm",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": true
@@ -505,7 +520,8 @@
     ],
     "mood": [
       "lonely",
-      "chill"
+      "chill",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": false
@@ -524,7 +540,8 @@
     ],
     "mood": [
       "melancholy",
-      "warm"
+      "warm",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": true
@@ -544,7 +561,8 @@
     ],
     "mood": [
       "nostalgic",
-      "warm"
+      "warm",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": false
@@ -563,7 +581,8 @@
     ],
     "mood": [
       "nostalgic",
-      "warm"
+      "warm",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": true
@@ -602,7 +621,8 @@
     ],
     "mood": [
       "warm",
-      "calm"
+      "calm",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": true
@@ -642,7 +662,8 @@
     ],
     "mood": [
       "nostalgic",
-      "warm"
+      "warm",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": true
@@ -662,7 +683,8 @@
     ],
     "mood": [
       "lonely",
-      "chill"
+      "chill",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": false
@@ -682,7 +704,8 @@
     ],
     "mood": [
       "melancholy",
-      "warm"
+      "warm",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": true
@@ -702,7 +725,8 @@
     ],
     "mood": [
       "nostalgic",
-      "warm"
+      "warm",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": false
@@ -722,7 +746,8 @@
     ],
     "mood": [
       "chill",
-      "warm"
+      "warm",
+      "relaxed"
     ],
     "has_copyright": true,
     "is_lossless": true
@@ -2367,7 +2392,8 @@
     ],
     "mood": [
       "chill",
-      "romantic"
+      "romantic",
+      "lazy"
     ],
     "has_copyright": true,
     "is_lossless": true
@@ -3964,5 +3990,1070 @@
     ],
     "has_copyright": true,
     "is_lossless": false
+  },
+  {
+    "id": "s201",
+    "title": "Says",
+    "artist": "Nils Frahm",
+    "album": "Felt",
+    "duration": 330,
+    "bpm": 68,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "classical",
+      "ambient"
+    ],
+    "mood": [
+      "calm",
+      "relaxed"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s202",
+    "title": "Near Light",
+    "artist": "Olafur Arnalds",
+    "album": "...And They Have Escaped the Weight of Darkness",
+    "duration": 190,
+    "bpm": 65,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "classical",
+      "ambient"
+    ],
+    "mood": [
+      "calm",
+      "healing"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s203",
+    "title": "On the Nature of Daylight",
+    "artist": "Max Richter",
+    "album": "The Blue Notebooks",
+    "duration": 360,
+    "bpm": 70,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "classical",
+      "cinematic"
+    ],
+    "mood": [
+      "melancholy",
+      "calm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s204",
+    "title": "Nuvole Bianche",
+    "artist": "Ludovico Einaudi",
+    "album": "Una Mattina",
+    "duration": 360,
+    "bpm": 72,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "classical",
+      "new-age"
+    ],
+    "mood": [
+      "calm",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s205",
+    "title": "Experience",
+    "artist": "Ludovico Einaudi",
+    "album": "In a Time Lapse",
+    "duration": 310,
+    "bpm": 70,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "classical",
+      "cinematic"
+    ],
+    "mood": [
+      "motivational",
+      "calm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s206",
+    "title": "A Minor Beginning",
+    "artist": "Hania Rani",
+    "album": "Esja",
+    "duration": 280,
+    "bpm": 66,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "classical",
+      "ambient"
+    ],
+    "mood": [
+      "calm",
+      "melancholy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s207",
+    "title": "Le Onde",
+    "artist": "Ludovico Einaudi",
+    "album": "Le Onde",
+    "duration": 300,
+    "bpm": 75,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "classical",
+      "new-age"
+    ],
+    "mood": [
+      "calm",
+      "relaxed"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s208",
+    "title": "The Departure",
+    "artist": "Max Richter",
+    "album": "The Leftovers OST",
+    "duration": 240,
+    "bpm": 68,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "classical",
+      "cinematic"
+    ],
+    "mood": [
+      "melancholy",
+      "calm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s209",
+    "title": "All Melody",
+    "artist": "Nils Frahm",
+    "album": "All Melody",
+    "duration": 420,
+    "bpm": 72,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "ambient",
+      "electronic"
+    ],
+    "mood": [
+      "calm",
+      "focused"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s210",
+    "title": "Halls of the Summer",
+    "artist": "Nils Frahm",
+    "album": "Wintermusik",
+    "duration": 280,
+    "bpm": 65,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "classical",
+      "ambient"
+    ],
+    "mood": [
+      "calm",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s211",
+    "title": "An Ending (Ascent)",
+    "artist": "Brian Eno",
+    "album": "Apollo: Atmospheres and Soundtracks",
+    "duration": 260,
+    "bpm": 68,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "ambient",
+      "new-age"
+    ],
+    "mood": [
+      "calm",
+      "healing"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s212",
+    "title": "Music for Airports 1/1",
+    "artist": "Brian Eno",
+    "album": "Ambient 1: Music for Airports",
+    "duration": 2900,
+    "bpm": 60,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "ambient"
+    ],
+    "mood": [
+      "calm",
+      "focused"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s213",
+    "title": "A Walk",
+    "artist": "Tycho",
+    "album": "Dive",
+    "duration": 300,
+    "bpm": 75,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "ambient",
+      "electronic"
+    ],
+    "mood": [
+      "chill",
+      "warm",
+      "lazy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s214",
+    "title": "Hours",
+    "artist": "Tycho",
+    "album": "Past Is Prologue",
+    "duration": 280,
+    "bpm": 70,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "ambient",
+      "electronic"
+    ],
+    "mood": [
+      "chill",
+      "relaxed",
+      "lazy"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s215",
+    "title": "Kiara",
+    "artist": "Bonobo",
+    "album": "Black Sands",
+    "duration": 320,
+    "bpm": 72,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "ambient",
+      "electronic"
+    ],
+    "mood": [
+      "chill",
+      "warm",
+      "lazy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s216",
+    "title": "Kong",
+    "artist": "Bonobo",
+    "album": "Black Sands",
+    "duration": 290,
+    "bpm": 78,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "ambient",
+      "electronic"
+    ],
+    "mood": [
+      "chill",
+      "groovy",
+      "lazy"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s217",
+    "title": "Roygbiv",
+    "artist": "Boards of Canada",
+    "album": "Music Has the Right to Children",
+    "duration": 150,
+    "bpm": 75,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "ambient",
+      "electronic"
+    ],
+    "mood": [
+      "chill",
+      "nostalgic",
+      "lazy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s218",
+    "title": "Dayvan Cowboy",
+    "artist": "Boards of Canada",
+    "album": "The Campfire Headphase",
+    "duration": 300,
+    "bpm": 70,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "ambient",
+      "electronic"
+    ],
+    "mood": [
+      "chill",
+      "nostalgic",
+      "lazy"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s219",
+    "title": "Xtal",
+    "artist": "Aphex Twin",
+    "album": "Selected Ambient Works 85-92",
+    "duration": 290,
+    "bpm": 72,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "ambient",
+      "electronic"
+    ],
+    "mood": [
+      "calm",
+      "chill",
+      "lazy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s220",
+    "title": "Lichen",
+    "artist": "Stars of the Lid",
+    "album": "And Their Refinement of the Decline",
+    "duration": 480,
+    "bpm": 60,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "ambient"
+    ],
+    "mood": [
+      "calm",
+      "relaxed"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s221",
+    "title": "Requiem for the Static King Part One",
+    "artist": "A Winged Victory for the Sullen",
+    "album": "A Winged Victory for the Sullen",
+    "duration": 540,
+    "bpm": 65,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "ambient",
+      "classical"
+    ],
+    "mood": [
+      "melancholy",
+      "calm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s222",
+    "title": "Music for Nitrous Oxide",
+    "artist": "Stars of the Lid",
+    "album": "Music for Nitrous Oxide",
+    "duration": 600,
+    "bpm": 62,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "ambient"
+    ],
+    "mood": [
+      "calm",
+      "relaxed"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s223",
+    "title": "Luminous",
+    "artist": "Jon Hopkins",
+    "album": "Immunity",
+    "duration": 360,
+    "bpm": 70,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "ambient",
+      "electronic"
+    ],
+    "mood": [
+      "calm",
+      "focused"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s224",
+    "title": "Open Eye Signal",
+    "artist": "Jon Hopkins",
+    "album": "Immunity",
+    "duration": 480,
+    "bpm": 75,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "electronic",
+      "ambient"
+    ],
+    "mood": [
+      "energetic",
+      "chill",
+      "lazy"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s225",
+    "title": "Coffee",
+    "artist": "Beats Antique",
+    "album": "Contraption Vol. 1",
+    "duration": 240,
+    "bpm": 78,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "lo-fi",
+      "chillhop"
+    ],
+    "mood": [
+      "chill",
+      "lazy"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s226",
+    "title": "Rainy Day",
+    "artist": "Nujabes",
+    "album": "Modal Soul",
+    "duration": 260,
+    "bpm": 82,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "lo-fi",
+      "jazz"
+    ],
+    "mood": [
+      "chill",
+      "relaxed",
+      "lazy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s227",
+    "title": "Feather",
+    "artist": "Nujabes",
+    "album": "Modal Soul",
+    "duration": 250,
+    "bpm": 80,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "lo-fi",
+      "jazz"
+    ],
+    "mood": [
+      "chill",
+      "warm",
+      "lazy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s228",
+    "title": "Luv(sic) Part 3",
+    "artist": "Nujabes",
+    "album": "Luv(sic) Hexalogy",
+    "duration": 280,
+    "bpm": 85,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "lo-fi",
+      "hiphop"
+    ],
+    "mood": [
+      "chill",
+      "nostalgic",
+      "lazy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s229",
+    "title": "Reflections",
+    "artist": "J Dilla",
+    "album": "Donuts",
+    "duration": 120,
+    "bpm": 78,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "lo-fi",
+      "hiphop"
+    ],
+    "mood": [
+      "chill",
+      "warm",
+      "lazy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s230",
+    "title": "Time: The Donut of the Heart",
+    "artist": "J Dilla",
+    "album": "Donuts",
+    "duration": 130,
+    "bpm": 82,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "lo-fi",
+      "hiphop"
+    ],
+    "mood": [
+      "chill",
+      "nostalgic",
+      "lazy"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s231",
+    "title": "Fly Me to the Moon",
+    "artist": "J Dilla",
+    "album": "Donuts",
+    "duration": 100,
+    "bpm": 88,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "lo-fi",
+      "hiphop"
+    ],
+    "mood": [
+      "chill",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s232",
+    "title": "The Number Song",
+    "artist": "DJ Shadow",
+    "album": "Endtroducing.....",
+    "duration": 240,
+    "bpm": 85,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "lo-fi",
+      "hiphop"
+    ],
+    "mood": [
+      "chill",
+      "energetic",
+      "lazy"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s233",
+    "title": "Organ Donor",
+    "artist": "DJ Shadow",
+    "album": "Endtroducing.....",
+    "duration": 180,
+    "bpm": 80,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "lo-fi",
+      "hiphop"
+    ],
+    "mood": [
+      "chill",
+      "groovy"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s234",
+    "title": "Midnight City",
+    "artist": "M83",
+    "album": "Hurry Up, We're Dreaming",
+    "duration": 244,
+    "bpm": 88,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "electronic",
+      "ambient"
+    ],
+    "mood": [
+      "energetic",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s235",
+    "title": "Outro",
+    "artist": "M83",
+    "album": "Hurry Up, We're Dreaming",
+    "duration": 341,
+    "bpm": 85,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "electronic",
+      "cinematic"
+    ],
+    "mood": [
+      "energetic",
+      "epic"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s236",
+    "title": "Merry Christmas Mr. Lawrence",
+    "artist": "Ryuichi Sakamoto",
+    "album": "Merry Christmas Mr. Lawrence OST",
+    "duration": 280,
+    "bpm": 70,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "classical",
+      "ambient"
+    ],
+    "mood": [
+      "melancholy",
+      "calm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s237",
+    "title": "Aqua",
+    "artist": "Ryuichi Sakamoto",
+    "album": "BTTB",
+    "duration": 300,
+    "bpm": 68,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "classical",
+      "ambient"
+    ],
+    "mood": [
+      "calm",
+      "healing"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s238",
+    "title": "One Summer's Day",
+    "artist": "Joe Hisaishi",
+    "album": "Spirited Away OST",
+    "duration": 190,
+    "bpm": 72,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "classical",
+      "new-age"
+    ],
+    "mood": [
+      "warm",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s239",
+    "title": "The Wind Forest",
+    "artist": "Joe Hisaishi",
+    "album": "My Neighbor Totoro OST",
+    "duration": 260,
+    "bpm": 75,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "classical",
+      "new-age"
+    ],
+    "mood": [
+      "warm",
+      "happy"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s240",
+    "title": "River Flows in You",
+    "artist": "Yiruma",
+    "album": "First Love",
+    "duration": 190,
+    "bpm": 72,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "classical",
+      "new-age"
+    ],
+    "mood": [
+      "romantic",
+      "calm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s241",
+    "title": "Kiss the Rain",
+    "artist": "Yiruma",
+    "album": "From the Yellow Room",
+    "duration": 250,
+    "bpm": 70,
+    "vocal_level": "none",
+    "is_instrumental": true,
+    "style": [
+      "classical",
+      "new-age"
+    ],
+    "mood": [
+      "melancholy",
+      "calm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s242",
+    "title": "Rolling in the Deep",
+    "artist": "Adele",
+    "album": "21",
+    "duration": 228,
+    "bpm": 105,
+    "vocal_level": "high",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal"
+    ],
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s243",
+    "title": "Someone Like You",
+    "artist": "Adele",
+    "album": "21",
+    "duration": 285,
+    "bpm": 75,
+    "vocal_level": "high",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal"
+    ],
+    "mood": [
+      "melancholy",
+      "sad"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s244",
+    "title": "Hello",
+    "artist": "Adele",
+    "album": "25",
+    "duration": 295,
+    "bpm": 78,
+    "vocal_level": "high",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal"
+    ],
+    "mood": [
+      "melancholy",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s245",
+    "title": "I Will Always Love You",
+    "artist": "Whitney Houston",
+    "album": "The Bodyguard OST",
+    "duration": 270,
+    "bpm": 88,
+    "vocal_level": "high",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal"
+    ],
+    "mood": [
+      "romantic",
+      "warm"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s246",
+    "title": "Hallelujah",
+    "artist": "Jeff Buckley",
+    "album": "Grace",
+    "duration": 400,
+    "bpm": 65,
+    "vocal_level": "high",
+    "is_instrumental": false,
+    "style": [
+      "folk",
+      "indie"
+    ],
+    "mood": [
+      "melancholy",
+      "calm"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s247",
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "album": "A Night at the Opera",
+    "duration": 354,
+    "bpm": 144,
+    "vocal_level": "high",
+    "is_instrumental": false,
+    "style": [
+      "rock",
+      "cinematic"
+    ],
+    "mood": [
+      "energetic",
+      "dramatic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s248",
+    "title": "Don't Stop Me Now",
+    "artist": "Queen",
+    "album": "Jazz",
+    "duration": 210,
+    "bpm": 156,
+    "vocal_level": "high",
+    "is_instrumental": false,
+    "style": [
+      "rock",
+      "pop-vocal"
+    ],
+    "mood": [
+      "energetic",
+      "happy"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s249",
+    "title": "I Want It That Way",
+    "artist": "Backstreet Boys",
+    "album": "Millennium",
+    "duration": 215,
+    "bpm": 100,
+    "vocal_level": "high",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal"
+    ],
+    "mood": [
+      "romantic",
+      "nostalgic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s250",
+    "title": "Everybody",
+    "artist": "Backstreet Boys",
+    "album": "Backstreet's Back",
+    "duration": 230,
+    "bpm": 110,
+    "vocal_level": "high",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "dance"
+    ],
+    "mood": [
+      "energetic",
+      "happy"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s251",
+    "title": "Wrecking Ball",
+    "artist": "Miley Cyrus",
+    "album": "Bangerz",
+    "duration": 220,
+    "bpm": 120,
+    "vocal_level": "high",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal"
+    ],
+    "mood": [
+      "melancholy",
+      "energetic"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
+  },
+  {
+    "id": "s252",
+    "title": "Chandelier",
+    "artist": "Sia",
+    "album": "1000 Forms of Fear",
+    "duration": 225,
+    "bpm": 120,
+    "vocal_level": "high",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "electronic"
+    ],
+    "mood": [
+      "energetic",
+      "intense"
+    ],
+    "has_copyright": true,
+    "is_lossless": false
+  },
+  {
+    "id": "s253",
+    "title": "Alive",
+    "artist": "Sia",
+    "album": "This Is Acting",
+    "duration": 240,
+    "bpm": 126,
+    "vocal_level": "high",
+    "is_instrumental": false,
+    "style": [
+      "pop-vocal",
+      "electronic"
+    ],
+    "mood": [
+      "energetic",
+      "motivational"
+    ],
+    "has_copyright": true,
+    "is_lossless": true
   }
 ]
